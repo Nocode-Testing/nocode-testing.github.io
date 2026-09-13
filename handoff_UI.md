@@ -4,10 +4,11 @@ Ce document sert de memoire de contexte UX/UI pour un LLM intervenant sur le des
 Il centralise les decisions de design, les pistes retenues, la charte graphique validee et les informations utiles pour garder une coherence visuelle dans le temps.
 
 ## Type de site ou produit
-- A completer.
+- Futur site `nocode-testing.com`, en reconstruction apres le retrait de l'ancienne base Docusaurus.
+- La nature exacte du site et son contenu restent a confirmer dans `build-app.md`.
 
 ## Objectif de l'interface
-- A completer.
+- A definir apres validation du besoin et des parcours prioritaires.
 
 ## Public cible
 - A completer.
@@ -34,10 +35,11 @@ Il centralise les decisions de design, les pistes retenues, la charte graphique 
 - A completer.
 
 ## Contraintes produit ou techniques impactant l'UI
-- A completer.
+- Aucune stack frontend n'est encore retenue. JavaScript natif est privilegie si le besoin le permet ; React ou Vue demandent une justification explicite.
+- Les contraintes techniques, contrats API et decisions d'architecture sont maintenus dans `handoff.md`.
 
 ## Questions ouvertes
-- A completer.
+- Public cible, contenu, identite visuelle, inspirations, pages prioritaires et objectifs de conversion : voir les questions de cadrage dans `build-app.md`.
 
 ## Prochaines etapes design
-- A completer.
+- Attendre les reponses de cadrage et la validation du commanditaire avant de solliciter Armindia UI pour explorer des directions.
