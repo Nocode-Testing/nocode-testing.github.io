@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1160" viewBox="0 0 1600 1160" role="img" aria-labelledby="title desc">
+  <title id="title">Maquette accueil Nocode Testing - Labo puzzle</title>
+  <desc id="desc">Planche implementable montrant un accueil desktop et mobile : logo de marque, module de navigation distinct a droite, hero qualite logicielle et acces au blog, labo et ressources.</desc>
+  <style>
+    .canvas{fill:#e5e9e4}.screen{fill:#f5f7f3;stroke:#25323d;stroke-width:2}.ink{fill:#25323d}.brand{fill:#5d648c}.mist{fill:#ced7e2}.acid{fill:#d6e65e}.coral{fill:#df765d}.white{fill:#fff}.line{stroke:#25323d;stroke-width:2}.softline{stroke:#b9c5ce;stroke-width:2}.dash{stroke:#5d648c;stroke-width:2;stroke-dasharray:6 7;fill:none}.micro{font:600 13px 'Space Grotesk',Arial,sans-serif;letter-spacing:1.4px}.nav{font:500 16px 'IBM Plex Sans',Arial,sans-serif}.body{font:400 19px 'IBM Plex Sans',Arial,sans-serif}.small{font:400 14px 'IBM Plex Sans',Arial,sans-serif}.display{font:600 51px 'Space Grotesk',Arial,sans-serif;letter-spacing:0}.mobile-display{font:600 35px 'Space Grotesk',Arial,sans-serif;letter-spacing:0}.card{font:600 21px 'Space Grotesk',Arial,sans-serif}
+  </style>
+  <rect width="1600" height="1160" class="canvas"/>
+  <text x="62" y="52" class="micro ink">DIRECTION RECOMMANDEE / LABO PUZZLE</text>
+  <text x="62" y="80" class="body brand">Accueil + header, desktop et mobile. Panneaux modulaires et parcours de verification ; aucune donnee ou metrique simulee.</text>
+
+  <!-- Desktop / 1440 px. -->
+  <rect x="62" y="118" width="1080" height="954" rx="8" class="screen"/>
+  <rect x="62" y="118" width="1080" height="94" rx="8" class="white"/>
+  <path d="M62 212H1142" class="line"/>
+  <image href="../brand/Logo_NCT_vectoriel.svg" xlink:href="../brand/Logo_NCT_vectoriel.svg" x="91" y="134" width="62" height="62" preserveAspectRatio="xMidYMid meet"/>
+  <text x="169" y="159" class="micro ink">NOCODE</text><text x="169" y="181" class="small brand">TESTING</text>
+  <text x="656" y="164" class="small brand">QUALITE LOGICIELLE</text>
+  <rect x="912" y="142" width="193" height="46" rx="4" class="ink"/>
+  <text x="968" y="171" class="nav white">Contact</text>
+
+  <!-- Header-side navigation module, deliberately separate from the header. -->
+  <rect x="898" y="242" width="207" height="365" rx="8" class="ink"/>
+  <text x="924" y="278" class="micro acid">EXPLORER</text>
+  <path d="M924 300H1079" stroke="#71808b" stroke-width="1"/>
+  <text x="924" y="337" class="nav white">01 / Blog</text>
+  <text x="924" y="384" class="nav white">02 / Labo Test &amp; IA</text>
+  <text x="924" y="431" class="nav white">03 / Ressources</text>
+  <text x="924" y="478" class="nav white">04 / A propos</text>
+  <path d="M924 511H1079" stroke="#71808b" stroke-width="1"/>
+  <text x="924" y="548" class="small mist">Le menu prend sa place.</text>
+  <text x="924" y="570" class="small mist">Le contenu garde la sienne.</text>
+
+  <text x="116" y="278" class="micro coral">PROTOCOLE 01 / QUALITE LOGICIELLE</text>
+  <text x="116" y="347" class="display ink">Qualite logicielle,</text>
+  <text x="116" y="405" class="display ink">curiosite comprise.</text>
+  <text x="116" y="452" class="body ink">Des retours de terrain, des methodes et un Labo Test &amp; IA</text>
+  <text x="116" y="480" class="body brand">pour les equipes qui aiment comprendre avant de cliquer partout.</text>
+  <rect x="116" y="523" width="178" height="50" rx="4" class="brand"/>
+  <text x="143" y="555" class="nav white">Lire le blog</text>
+  <rect x="309" y="523" width="176" height="50" rx="4" fill="none" stroke="#25323d" stroke-width="2"/>
+  <text x="338" y="555" class="nav ink">Voir le labo</text>
+  <text x="116" y="619" class="small brand">Note de methode : les hypotheses peuvent entrer. Les certitudes doivent montrer leur badge.</text>
+
+  <!-- Original abstract visual device, never a data dashboard. -->
+  <rect x="116" y="663" width="726" height="258" rx="8" class="mist"/>
+  <text x="143" y="697" class="micro brand">PIECES DE PARCOURS / UNE COMPOSITION, PAS UN TABLEAU DE BORD</text>
+  <rect x="143" y="725" width="146" height="155" rx="6" class="white"/>
+  <text x="161" y="754" class="micro brand">QUESTION</text>
+  <path d="M176 798h78v-31h32v31h-32v31h-78z" fill="#d6e65e" stroke="#25323d" stroke-width="2"/>
+  <text x="161" y="853" class="small ink">On commence par</text><text x="161" y="871" class="small ink">ce qui coince.</text>
+
+  <rect x="310" y="725" width="231" height="155" rx="6" class="brand"/>
+  <text x="330" y="754" class="micro white">ESSAI</text>
+  <path d="M336 833C365 768 409 766 433 812S491 849 515 781" stroke="#d6e65e" stroke-width="5" fill="none"/>
+  <circle cx="336" cy="833" r="8" class="coral"/><circle cx="433" cy="812" r="8" class="acid"/><circle cx="515" cy="781" r="8" class="coral"/>
+  <text x="330" y="863" class="small white">La theorie sort prendre l'air.</text>
+
+  <rect x="562" y="725" width="252" height="155" rx="6" class="coral"/>
+  <text x="582" y="754" class="micro ink">RETOUR TERRAIN</text>
+  <circle cx="624" cy="810" r="27" class="acid"/><path d="M607 810h34M624 793v34" stroke="#25323d" stroke-width="3"/>
+  <text x="670" y="805" class="small ink">On garde</text><text x="670" y="825" class="small ink">ce qui fonctionne.</text><text x="670" y="853" class="small ink">C'est deja beaucoup.</text>
+
+  <rect x="116" y="951" width="726" height="83" rx="7" class="white" stroke="#b9c5ce" stroke-width="2"/>
+  <text x="143" y="980" class="micro brand">POINTS D'ENTREE</text>
+  <text x="143" y="1012" class="card ink">Le testeur du granier</text>
+  <text x="409" y="1012" class="card ink">Labo Test &amp; IA</text>
+  <text x="655" y="1012" class="card ink">Ressources</text>
+
+  <!-- Mobile / 390 px. The isolated navigation module is shown expanded. -->
+  <rect x="1200" y="118" width="330" height="954" rx="24" class="ink"/>
+  <rect x="1212" y="136" width="306" height="918" rx="15" class="screen"/>
+  <rect x="1212" y="136" width="306" height="74" rx="15" class="white"/>
+  <image href="../brand/Logo_NCT_vectoriel.svg" xlink:href="../brand/Logo_NCT_vectoriel.svg" x="1227" y="147" width="47" height="47" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1282" y="164" class="micro ink">NOCODE</text><text x="1282" y="181" class="small brand">TESTING</text>
+  <rect x="1438" y="153" width="62" height="39" rx="4" class="ink"/><text x="1450" y="178" class="small white">Menu</text>
+
+  <rect x="1228" y="229" width="274" height="174" rx="7" class="ink"/>
+  <text x="1246" y="255" class="micro acid">NAVIGATION</text>
+  <text x="1246" y="286" class="small white">Blog</text><text x="1328" y="286" class="small white">Labo Test &amp; IA</text>
+  <text x="1246" y="320" class="small white">Ressources</text><text x="1361" y="320" class="small white">A propos</text>
+  <rect x="1246" y="346" width="238" height="39" rx="4" class="acid"/><text x="1332" y="371" class="small ink">Contact</text>
+
+  <text x="1228" y="446" class="micro coral">QUALITE LOGICIELLE</text>
+  <text x="1228" y="497" class="mobile-display ink">Qualite logicielle,</text>
+  <text x="1228" y="537" class="mobile-display ink">curiosite comprise.</text>
+  <text x="1228" y="571" class="small ink">Terrain, methodes et Labo Test &amp; IA</text>
+  <text x="1228" y="592" class="small brand">pour tester sans yeux fermes.</text>
+  <rect x="1228" y="619" width="149" height="45" rx="4" class="brand"/><text x="1250" y="648" class="small white">Lire le blog</text>
+
+  <rect x="1228" y="696" width="274" height="201" rx="7" class="mist"/>
+  <text x="1246" y="726" class="micro brand">PIECES DE PARCOURS</text>
+  <rect x="1246" y="746" width="70" height="122" rx="5" class="white"/>
+  <rect x="1326" y="746" width="70" height="122" rx="5" class="brand"/>
+  <rect x="1406" y="746" width="78" height="122" rx="5" class="coral"/>
+  <path d="M1256 805h22v-13h12v13h22v15h-22v13h-12v-13h-22z" fill="#d6e65e" stroke="#25323d" stroke-width="2"/>
+  <path d="M1334 836C1350 780 1370 782 1387 756" stroke="#d6e65e" stroke-width="4" fill="none"/>
+  <circle cx="1445" cy="808" r="19" class="acid"/><path d="M1433 808h24M1445 796v24" stroke="#25323d" stroke-width="2"/>
+
+  <text x="1228" y="937" class="card ink">Le testeur du granier</text><text x="1228" y="961" class="small brand">Voir les retours de terrain</text>
+  <path d="M1228 984H1502" class="softline"/>
+  <text x="1228" y="1016" class="small ink">Le fond est colore, les idees aussi.</text>
+
+  <text x="62" y="1118" class="small brand">Typographies a valider : Space Grotesk pour les titres/reperes et IBM Plex Sans pour la lecture. Les accents citron et corail sont toujours accompagnes de texte ou de structure.</text>
+</svg>

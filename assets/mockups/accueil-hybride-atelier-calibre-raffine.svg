@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Nocode Testing - Accueil hybride Atelier calibre raffine</title>
+  <desc id="desc">Planche autonome desktop et mobile. Le cadre, le fond colore et le header Atelier calibre sont conserves. Les cartes deviennent des panneaux graphiques de question, essai et retour de terrain ; la navigation ardoise est rapprochee du cadre.</desc>
+  <style>
+    .canvas{fill:#e8edf1}.screen{fill:#f9faf8;stroke:#25323d;stroke-width:2}.ink{fill:#25323d}.brand{fill:#5d648c}.mist{fill:#ced7e2}.copper{fill:#a85e44}.white{fill:#fff}.line{stroke:#25323d;stroke-width:2;fill:none}.soft{stroke:#aeb6cf;stroke-width:1.5;fill:none}.micro{font:600 13px 'Space Grotesk',Arial,sans-serif;letter-spacing:1.3px}.nav{font:500 16px 'IBM Plex Sans',Arial,sans-serif}.body{font:400 19px 'IBM Plex Sans',Arial,sans-serif}.small{font:400 14px 'IBM Plex Sans',Arial,sans-serif}.display{font:600 52px 'Space Grotesk',Arial,sans-serif}.mobile-display{font:600 34px 'Space Grotesk',Arial,sans-serif}.panel-title{font:600 22px 'Space Grotesk',Arial,sans-serif}
+  </style>
+  <defs>
+    <symbol id="nct-logo" viewBox="0 0 454 454">
+      <path fill="#CED7E2" d="M203 111c28 0 55 12 74 32 19 20 29 46 29 74 0 28-11 55-31 74-20 19-46 30-74 30-28 0-55-11-74-31-19-20-30-46-30-74 0-28 11-55 31-74 20-19 46-30 75-30z"/>
+      <path fill="#5D648C" d="M371 233h-50c-4 20-13 38-25 53l-11-9c15-19 24-42 24-67 0-59-48-106-106-106-27 0-51 10-70 26l-10-10c13-11 27-20 44-25V46c0-9-8-17-17-17H46c-9 0-17 8-17 17v104c0 9 8 16 17 16h44c6-14 14-27 24-38l10 11c-17 19-28 44-28 71 0 26 9 50 25 69l-10 9c-18-21-29-48-29-78 0-10 1-19 3-29H55c-14 0-26 12-26 26v151c0 14 12 25 26 25h155c14 0 26-11 26-25v-32c-11 3-22 5-33 5-32 0-62-13-83-34l10-9c19 18 45 29 73 29 29 0 55-12 74-31l11 10c-11 11-24 20-39 26v39c0 13 10 23 23 23h119c13 0 23-10 23-23v-91c0-13-10-23-23-23z"/>
+      <path fill="#5D648C" d="M167 177c4 7 6 17 6 29v54h-8v-52c0-9-1-16-3-21-2-5-5-7-9-7-4 0-7 3-10 8-2 5-3 12-3 22v0h-8v-41h8v13c1-5 3-8 6-11 3-3 5-4 9-4 5 0 10 3 13 10zm104-10v10h-16v83h-8v-83h-16v-10h40zm-55 71c-1 3-2 5-3 6-2 3-5 5-8 5-4 0-8-3-11-9-3-6-4-15-4-26 0-11 1-19 4-25 3-6 6-9 11-9 3 0 6 2 8 5 1 2 2 4 3 6l6-8c-1-3-2-5-4-8-4-5-8-8-14-8-4 0-8 2-11 6-4 4-6 9-8 16-2 7-3 15-3 25 0 10 1 18 3 25 2 7 5 13 8 17 3 4 7 6 11 6 6 0 10-3 14-8 2-3 3-6 4-9l-6-7z"/>
+      <rect x="220" y="209" width="22" height="8" fill="#5D648C"/>
+    </symbol>
+    <g id="blog-icon" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h16v18H2zM5 8h10M5 12h10M5 16h6"/></g>
+    <g id="labo-icon" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 2v7l-5 9h14l-5-9V2M5 14h10"/></g>
+    <g id="mail-icon" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 5h18v14H2zM2 6l9 7 9-7"/></g>
+    <g id="menu-icon" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></g>
+  </defs>
+  <rect width="1600" height="1200" class="canvas"/>
+  <text x="62" y="50" class="micro ink">DIRECTION RECOMMANDEE / ATELIER CALIBRE HYBRIDE RAFFINE</text>
+  <text x="62" y="78" class="body brand">Accueil + header, desktop et mobile. Panneaux expressifs, navigation resserree, controles flat accessibles.</text>
+
+  <!-- Desktop -->
+  <rect x="62" y="116" width="1080" height="970" rx="8" class="screen"/>
+  <path d="M62 208H1142" class="line"/>
+  <use href="#nct-logo" x="88" y="131" width="58" height="58"/><text x="162" y="157" class="micro ink">NOCODE</text><text x="162" y="181" class="small brand">TESTING</text>
+  <text x="685" y="164" class="small brand">QUALITE LOGICIELLE</text>
+  <rect x="958" y="137" width="150" height="44" class="ink"/><g transform="translate(973 148)" class="white"><use href="#mail-icon" width="20" height="20"/></g><text x="1002" y="165" class="nav white">Contact</text>
+
+  <text x="116" y="274" class="micro copper">PROTOCOLE 01 / QUALITE LOGICIELLE</text>
+  <text x="116" y="344" class="display ink">Tester les idees.</text><text x="116" y="402" class="display ink">Garder les preuves.</text>
+  <text x="116" y="447" class="body ink">Du terrain, des methodes et un Labo Test &amp; IA</text><text x="116" y="475" class="body brand">pour les equipes qui preferent comprendre avant d'applaudir.</text>
+  <rect x="116" y="510" width="180" height="48" class="brand"/><g transform="translate(132 524)" class="white"><use href="#blog-icon" width="20" height="20"/></g><text x="162" y="541" class="nav white">Lire le blog</text>
+  <rect x="310" y="510" width="172" height="48" class="mist"/><g transform="translate(326 524)" class="ink"><use href="#labo-icon" width="20" height="20"/></g><text x="356" y="541" class="nav ink">Voir le labo</text>
+  <rect x="307" y="507" width="178" height="54" fill="none" stroke="#CED7E2" stroke-width="3"/>
+  <text x="116" y="614" class="small brand">Note de methode : les raccourcis sont testes avant d'etre conseilles.</text>
+
+  <!-- Right navigation panel moved close to frame -->
+  <rect x="826" y="236" width="278" height="510" rx="7" class="brand"/>
+  <path d="M826 308h278M850 655h230" stroke="#aeb6cf" stroke-width="1.5"/>
+  <text x="850" y="274" class="micro white">EXPLORER / 05</text>
+  <text x="850" y="346" class="nav white">01 / Blog</text>
+  <rect x="840" y="370" width="236" height="48" class="white"/><text x="858" y="400" class="nav brand">02 / Labo Test &amp; IA</text>
+  <text x="850" y="466" class="nav white">03 / Ressources</text><text x="850" y="514" class="nav white">04 / A propos</text>
+  <text x="850" y="578" class="small mist">Un panneau qui choisit</text><text x="850" y="600" class="small mist">sa position. Comme un bon test.</text>
+  <rect x="850" y="680" width="160" height="44" class="copper"/><g transform="translate(865 692)" class="white"><use href="#mail-icon" width="20" height="20"/></g><text x="894" y="708" class="small white">Nous ecrire</text>
+
+  <!-- Expressive left panels: question, trial, field return -->
+  <rect x="116" y="664" width="318" height="246" rx="7" class="mist"/>
+  <text x="142" y="700" class="micro brand">01 / QUESTION</text><path d="M142 723h250" class="soft"/>
+  <text x="142" y="768" class="panel-title ink">Le parcours tient-il</text><text x="142" y="796" class="panel-title ink">vraiment debout ?</text>
+  <path d="M142 855h104" stroke="#a85e44" stroke-width="7"/><circle cx="269" cy="855" r="10" class="copper"/>
+  <text x="142" y="887" class="small ink">On pose la question avant</text><text x="142" y="906" class="small ink">de produire la reponse.</text>
+
+  <rect x="450" y="637" width="350" height="273" rx="7" class="ink"/>
+  <text x="477" y="673" class="micro mist">02 / ESSAI</text><path d="M477 697h280" stroke="#71808b" stroke-width="1.5"/>
+  <path d="M486 810c45-75 91-70 123-21s79 53 150-49" fill="none" stroke="#CED7E2" stroke-width="6"/>
+  <circle cx="486" cy="810" r="10" class="copper"/><circle cx="609" cy="789" r="10" class="white"/><circle cx="759" cy="740" r="10" class="copper"/>
+  <text x="477" y="857" class="small white">Un essai qui ne promet pas la lune :</text><text x="477" y="878" class="small mist">il prefere apporter une preuve.</text>
+
+  <rect x="579" y="889" width="222" height="125" rx="7" class="white" stroke="#25323d" stroke-width="2"/>
+  <text x="603" y="923" class="micro copper">03 / RETOUR TERRAIN</text><text x="603" y="957" class="small ink">Moins magique,</text><text x="603" y="978" class="small ink">beaucoup plus utile.</text>
+  <path d="M116 960h418" class="soft"/><text x="116" y="997" class="small brand">Panneaux expressifs, ordre de lecture stable : hero, actions, contenus.</text>
+
+  <!-- Mobile -->
+  <rect x="1202" y="116" width="330" height="970" rx="24" class="ink"/>
+  <rect x="1214" y="134" width="306" height="934" rx="15" class="screen"/>
+  <rect x="1214" y="134" width="306" height="75" rx="15" class="white"/>
+  <use href="#nct-logo" x="1230" y="148" width="48" height="48"/><text x="1287" y="163" class="micro ink">NOCODE</text><text x="1287" y="181" class="small brand">TESTING</text>
+  <rect x="1435" y="149" width="65" height="44" class="brand"/><g transform="translate(1444 160)" class="white"><use href="#menu-icon" width="20" height="20"/></g><text x="1468" y="176" class="small white">Menu</text>
+  <rect x="1230" y="230" width="274" height="176" rx="7" class="brand"/>
+  <text x="1248" y="258" class="micro mist">NAVIGATION</text><text x="1248" y="291" class="small white">Blog</text><text x="1343" y="291" class="small white">Ressources</text>
+  <rect x="1240" y="309" width="250" height="44" class="white"/><text x="1256" y="337" class="small brand">Labo Test &amp; IA</text><text x="1248" y="380" class="small white">A propos</text><text x="1343" y="380" class="small mist">Contact</text>
+  <text x="1230" y="458" class="micro copper">QUALITE LOGICIELLE</text><text x="1230" y="509" class="mobile-display ink">Tester les idees.</text><text x="1230" y="549" class="mobile-display ink">Garder les preuves.</text><text x="1230" y="582" class="small ink">Terrain, methodes et Labo Test &amp; IA.</text>
+  <rect x="1230" y="609" width="165" height="46" class="brand"/><g transform="translate(1244 622)" class="white"><use href="#blog-icon" width="20" height="20"/></g><text x="1274" y="638" class="small white">Lire le blog</text>
+  <rect x="1230" y="694" width="176" height="142" rx="7" class="mist"/><text x="1248" y="721" class="micro brand">QUESTION</text><text x="1248" y="754" class="small ink">Le parcours tient-il</text><text x="1248" y="775" class="small ink">vraiment debout ?</text><path d="M1248 806h75" stroke="#a85e44" stroke-width="6"/><circle cx="1340" cy="806" r="8" class="copper"/>
+  <rect x="1392" y="724" width="92" height="147" rx="7" class="ink"/><text x="1405" y="750" class="micro mist">ESSAI</text><path d="M1405 826c13-36 30-35 47-3" fill="none" stroke="#CED7E2" stroke-width="4"/><circle cx="1405" cy="826" r="6" class="copper"/><circle cx="1452" cy="823" r="6" class="white"/>
+  <rect x="1230" y="872" width="254" height="104" rx="7" class="white" stroke="#25323d" stroke-width="2"/><text x="1248" y="901" class="micro copper">RETOUR TERRAIN</text><text x="1248" y="935" class="small ink">Moins magique, beaucoup plus utile.</text>
+  <path d="M1230 1008h274" class="soft"/><text x="1230" y="1038" class="small brand">Des formes qui guident, jamais des gadgets.</text>
+  <text x="62" y="1142" class="small brand">Palette : bleu ardoise #5D648C, bleu gris #CED7E2, encre #25323D, cuivre doux #A85E44. Aucun citron. Les boutons sont rectangles, sans contour, avec icone + libelle et une cible de 44 px minimum.</text>
+  <text x="62" y="1170" class="small ink">Handoff implementation : conserver un focus visible continu de 3 px en #CED7E2, decale de 3 px ; etats hover/actif distincts sans information portee par la couleur seule.</text>
+</svg>

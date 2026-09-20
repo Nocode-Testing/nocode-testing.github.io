@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Nocode Testing - Orbite des cas</title>
+  <desc id="desc">Planche de maquette statique montrant un accueil desktop et mobile. La direction propose un laboratoire de parcours logiciels sous la forme d'une carte orbitale abstraite.</desc>
+  <style>
+    .bg{fill:#e8edf2}.screen{fill:#f9fbfc;stroke:#263244;stroke-width:2}.navy{fill:#1b2635}.brand{fill:#5d648c}.pale{fill:#ced7e2}.mint{fill:#92d6c5}.coral{fill:#dc735f}.white{fill:#fff}.line{stroke:#5d648c;stroke-width:2}.dash{stroke:#5d648c;stroke-width:2;stroke-dasharray:7 9;fill:none}.ring{stroke:#92d6c5;stroke-width:2;fill:none}.overline{font:700 13px Arial,sans-serif;letter-spacing:1.5px}.nav{font:600 15px Arial,sans-serif}.body{font:400 18px Arial,sans-serif}.small{font:400 14px Arial,sans-serif}.title{font:700 56px Georgia,serif}.mtitle{font:700 36px Georgia,serif}.cardtitle{font:700 21px Georgia,serif}
+  </style>
+  <rect width="1600" height="1040" class="bg"/>
+  <text x="62" y="54" class="overline navy">DIRECTION 01 / PROPOSITION RECOMMANDEE</text>
+  <text x="62" y="84" class="body navy">ORBITE DES CAS - un laboratoire de parcours logiciels, spatial sans reference fictionnelle</text>
+  <text x="62" y="112" class="small brand">Accueil + header / desktop 1440 px et mobile 390 px / maquette SVG statique</text>
+
+  <rect x="62" y="145" width="1080" height="805" rx="7" class="screen"/>
+  <rect x="62" y="145" width="1080" height="86" rx="7" class="navy"/>
+  <!-- Signature de marque composee pour la maquette : monogramme N/T, cercle et trajectoire. -->
+  <circle cx="112" cy="188" r="25" class="white"/><circle cx="112" cy="188" r="15" class="pale"/><path d="M99 193l13-15 13 15M106 185v12M118 185v12" class="line" fill="none"/>
+  <text x="150" y="184" class="overline white">NOCODE</text><text x="150" y="202" class="small pale">TESTING</text>
+  <text x="510" y="193" class="nav white">Blog</text><text x="566" y="193" class="nav white">Labo Test &amp; IA</text><text x="714" y="193" class="nav white">Ressources</text><text x="827" y="193" class="nav white">A propos</text>
+  <rect x="970" y="169" width="130" height="39" rx="3" class="mint"/><text x="1002" y="194" class="nav navy">Contact</text>
+
+  <rect x="97" y="273" width="265" height="28" rx="14" class="pale"/><text x="115" y="292" class="overline brand">QUALITE LOGICIELLE / 01</text>
+  <text x="97" y="374" class="title navy">Mettre les parcours</text><text x="97" y="436" class="title navy">a l'epreuve. Sans</text><text x="97" y="498" class="title navy">perdre le nord.</text>
+  <text x="100" y="544" class="body navy">Tests, retours de terrain et Labo Test &amp; IA.</text><text x="100" y="572" class="body brand">Ici, les hypotheses ont le droit de transpirer un peu.</text>
+  <rect x="97" y="609" width="184" height="52" rx="3" class="brand"/><text x="122" y="642" class="nav white">Explorer le blog</text>
+  <rect x="298" y="609" width="157" height="52" rx="3" fill="none" stroke="#5d648c" stroke-width="2"/><text x="324" y="642" class="nav brand">Nous ecrire</text>
+  <text x="99" y="708" class="small brand">JOURNAL DE BORD : aucun parcours n'a ete teleporte sans verification.</text>
+
+  <!-- Carte laboratoire : trajectoires, noeuds et zones de verification. -->
+  <rect x="610" y="273" width="473" height="445" rx="6" class="navy"/>
+  <text x="640" y="312" class="overline mint">CARTE DE VERIFICATION / SEQUENCE 04</text>
+  <circle cx="845" cy="495" r="148" class="ring"/><circle cx="845" cy="495" r="103" class="dash"/><circle cx="845" cy="495" r="52" fill="#5d648c"/><path d="M845 437v116M787 495h116" stroke="#fff" stroke-width="2"/>
+  <path d="M690 395C758 348 924 346 1005 406S1003 594 930 647" class="dash"/>
+  <circle cx="690" cy="395" r="13" class="coral"/><circle cx="1005" cy="406" r="13" class="mint"/><circle cx="930" cy="647" r="13" class="pale"/>
+  <text x="652" y="371" class="small pale">entree</text><text x="978" y="380" class="small mint">preuve</text><text x="945" y="680" class="small pale">sortie</text>
+  <rect x="638" y="744" width="416" height="76" rx="4" fill="#fff"/>
+  <text x="661" y="772" class="overline brand">ETAT DU PROTOCOLE</text><text x="661" y="800" class="small navy">Le chemin est visible. La surprise, elle, reste a tester.</text>
+
+  <rect x="97" y="777" width="986" height="133" rx="5" class="pale"/>
+  <text x="124" y="808" class="overline brand">TROIS POINTS D'ACCOSTAGE</text>
+  <circle cx="141" cy="851" r="10" class="coral"/><text x="163" y="857" class="cardtitle navy">Le testeur du granier</text><text x="163" y="882" class="small navy">Articles qui preferent la trace au grand discours.</text>
+  <circle cx="470" cy="851" r="10" class="mint"/><text x="492" y="857" class="cardtitle navy">Labo Test &amp; IA</text><text x="492" y="882" class="small navy">Experiences observees avant d'etre applaudies.</text>
+  <circle cx="779" cy="851" r="10" class="brand"/><text x="801" y="857" class="cardtitle navy">Ressources</text><text x="801" y="882" class="small navy">Des reperes solides pour eviter l'apesanteur.</text>
+
+  <rect x="1200" y="145" width="330" height="805" rx="24" class="navy"/><rect x="1212" y="163" width="306" height="770" rx="15" class="white"/>
+  <rect x="1212" y="163" width="306" height="72" rx="15" class="navy"/><circle cx="1241" cy="199" r="16" class="white"/><circle cx="1241" cy="199" r="9" class="pale"/>
+  <text x="1267" y="196" class="overline white">NOCODE</text><text x="1267" y="212" class="small pale">TESTING</text><text x="1481" y="205" class="body white">=</text>
+  <rect x="1237" y="266" width="190" height="26" rx="13" class="pale"/><text x="1252" y="284" class="overline brand">QUALITE LOGICIELLE</text>
+  <text x="1237" y="351" class="mtitle navy">Mettre les parcours</text><text x="1237" y="392" class="mtitle navy">a l'epreuve.</text><text x="1237" y="426" class="small brand">Sans perdre le nord.</text>
+  <rect x="1237" y="457" width="165" height="47" rx="3" class="brand"/><text x="1261" y="487" class="small white">Explorer le blog</text>
+  <rect x="1237" y="537" width="256" height="200" rx="5" class="navy"/><text x="1257" y="567" class="overline mint">SEQUENCE 04</text><circle cx="1365" cy="641" r="61" class="ring"/><circle cx="1365" cy="641" r="35" class="dash"/><circle cx="1365" cy="641" r="9" class="coral"/>
+  <text x="1257" y="770" class="cardtitle navy">Labo Test &amp; IA</text><text x="1257" y="795" class="small brand">Explorer les experiences</text>
+  <line x1="1237" y1="822" x2="1492" y2="822" class="line"/><text x="1237" y="856" class="small navy">Note : les raccourcis sont testes aussi.</text>
+  <text x="62" y="994" class="small brand">Palette : bleu ardoise #5D648C, bleu gris #CED7E2, encre #1B2635. Accent menthe et corail pour les repères, jamais seuls pour communiquer un etat.</text>
+</svg>

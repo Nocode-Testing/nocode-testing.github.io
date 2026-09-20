@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1560" viewBox="0 0 2100 1560" role="img" aria-labelledby="title desc">
+  <title id="title">Nocode Testing - Planche accueil puzzle Atelier calibre, themes clair et sombre</title>
+  <desc id="desc">Planche autonome presentant l'accueil Nocode Testing en themes clair et sombre, sur desktop et mobile. Les quatre panneaux asymetriques reprennent la composition Labo puzzle, avec un module de navigation ardoise attache au header.</desc>
+  <style>
+    .board{fill:#e8edf1}.paper{fill:#f8faf8;stroke:#25323d;stroke-width:2}.night{fill:#1f2933;stroke:#ced7e2;stroke-width:2}.ink{fill:#25323d}.white{fill:#fff}.brand{fill:#5d648c}.mist{fill:#ced7e2}.sage{fill:#a8b8aa}.deep{fill:#25323d}.night-ink{fill:#f5f7f3}.night-soft{fill:#ced7e2}.rule{stroke:#25323d;stroke-width:2;fill:none}.night-rule{stroke:#ced7e2;stroke-width:2;fill:none}.soft{stroke:#90a2a6;stroke-width:1.5;fill:none}.micro{font:600 12px 'Space Grotesk',Arial,sans-serif;letter-spacing:1.4px}.small{font:400 14px 'IBM Plex Sans',Arial,sans-serif}.nav{font:500 15px 'IBM Plex Sans',Arial,sans-serif}.body{font:400 18px 'IBM Plex Sans',Arial,sans-serif}.display{font:600 39px 'Space Grotesk',Arial,sans-serif}.mobile-display{font:600 27px 'Space Grotesk',Arial,sans-serif}.panel-title{font:600 18px 'Space Grotesk',Arial,sans-serif}.button-label{font:600 13px 'IBM Plex Sans',Arial,sans-serif}.mobile-small{font:400 10px 'IBM Plex Sans',Arial,sans-serif}.mobile-micro{font:600 8px 'Space Grotesk',Arial,sans-serif;letter-spacing:1px}.mobile-panel{font:600 12px 'Space Grotesk',Arial,sans-serif}
+  </style>
+  <defs>
+    <!-- Internal vector mark derived from the supplied NCT vector logo for reliable SVG preview. -->
+    <symbol id="nct-logo" viewBox="0 0 454 454">
+      <path fill="#CED7E2" d="M203 111c28 0 55 12 74 32 19 20 29 46 29 74 0 28-11 55-31 74-20 19-46 30-74 30-28 0-55-11-74-31-19-20-30-46-30-74 0-28 11-55 31-74 20-19 46-30 75-30z"/>
+      <path fill="#5D648C" d="M371 233h-50c-4 20-13 38-25 53l-11-9c15-19 24-42 24-67 0-59-48-106-106-106-27 0-51 10-70 26l-10-10c13-11 27-20 44-25V46c0-9-8-17-17-17H46c-9 0-17 8-17 17v104c0 9 8 16 17 16h44c6-14 14-27 24-38l10 11c-17 19-28 44-28 71 0 26 9 50 25 69l-10 9c-18-21-29-48-29-78 0-10 1-19 3-29H55c-14 0-26 12-26 26v151c0 14 12 25 26 25h155c14 0 26-11 26-25v-32c-11 3-22 5-33 5-32 0-62-13-83-34l10-9c19 18 45 29 73 29 29 0 55-12 74-31l11 10c-11 11-24 20-39 26v39c0 13 10 23 23 23h119c13 0 23-10 23-23v-91c0-13-10-23-23-23z"/>
+      <path fill="#5D648C" d="M167 177c4 7 6 17 6 29v54h-8v-52c0-9-1-16-3-21-2-5-5-7-9-7-4 0-7 3-10 8-2 5-3 12-3 22h-8v-41h8v13c1-5 3-8 6-11 3-3 5-4 9-4 5 0 10 3 13 10zm104-10v10h-16v83h-8v-83h-16v-10h40zm-55 71c-1 3-2 5-3 6-2 3-5 5-8 5-4 0-8-3-11-9-3-6-4-15-4-26 0-11 1-19 4-25 3-6 6-9 11-9 3 0 6 2 8 5 1 2 2 4 3 6l6-8c-1-3-2-5-4-8-4-5-8-8-14-8-4 0-8 2-11 6-4 4-6 9-8 16-2 7-3 15-3 25 0 10 1 18 3 25 2 7 5 13 8 17 3 4 7 6 11 6 6 0 10-3 14-8 2-3 3-6 4-9l-6-7z"/>
+      <rect x="220" y="209" width="22" height="8" fill="#5D648C"/>
+    </symbol>
+    <g id="mail" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M2 5h20v15H2zM2 6l10 8 10-8"/></g>
+    <g id="sun" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9L7 7M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></g>
+    <g id="moon" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 15.5A8.5 8.5 0 1 1 8.5 4 6.5 6.5 0 0 0 20 15.5z"/></g>
+    <g id="arrow" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 12h17M14 5l7 7-7 7"/></g>
+  </defs>
+  <rect width="2100" height="1560" class="board"/>
+  <text x="70" y="56" class="micro ink">NOCODE TESTING / ACCUEIL / PANNEAUX LABO PUZZLE</text>
+  <text x="70" y="84" class="body brand">Planche de validation : theme clair et vrai theme sombre, desktop et mobile.</text>
+
+  <!-- Desktop / light -->
+  <g transform="translate(70 130)">
+    <text x="0" y="-18" class="micro ink">DESKTOP / VUE CLAIRE</text>
+    <rect width="920" height="650" rx="8" class="paper"/>
+    <path d="M0 76h920" class="rule"/>
+    <use href="#nct-logo" x="26" y="14" width="48" height="48"/><text x="84" y="39" class="micro ink">NOCODE</text><text x="84" y="58" class="small brand">TESTING</text>
+    <text x="244" y="47" class="micro brand">QUALITE LOGICIELLE</text>
+    <rect x="503" y="17" width="185" height="42" class="mist"/><g transform="translate(516 26)" class="ink"><use href="#moon" width="23" height="23"/></g><text x="547" y="43" class="button-label ink">Passer au mode sombre</text>
+    <rect x="710" y="17" width="180" height="42" class="deep"/><g transform="translate(725 27)" class="white"><use href="#mail" width="21" height="21"/></g><text x="755" y="43" class="button-label white">Contact</text>
+    <text x="28" y="112" class="micro brand">PROTOCOLE 01 / QUALITE LOGICIELLE</text>
+    <text x="28" y="160" class="display ink">Tester les idees.</text><text x="28" y="204" class="display ink">Garder les preuves.</text>
+    <text x="28" y="234" class="small ink">Du terrain et des essais sans</text><text x="28" y="253" class="small ink">tableau de bord de theatre.</text>
+    <!-- Navigation is physically attached to the header at its right edge. -->
+    <rect x="720" y="76" width="172" height="320" class="brand"/>
+    <text x="738" y="104" class="micro white">EXPLORER / 05</text><path d="M738 116h136" stroke="#ced7e2" stroke-width="1.5"/>
+    <text x="738" y="145" class="small white">01 / Blog</text><rect x="730" y="157" width="152" height="35" class="white"/><text x="741" y="180" class="small brand">02 / Labo Test &amp; IA</text>
+    <text x="738" y="219" class="small white">03 / Ressources</text><text x="738" y="245" class="small white">04 / A propos</text>
+    <path d="M738 270h136" stroke="#ced7e2" stroke-width="1.5"/>
+    <rect x="748" y="288" width="116" height="44" class="sage"/><g transform="translate(760 299)" class="ink"><use href="#mail" width="21" height="21"/></g><text x="806" y="316" text-anchor="middle" class="button-label ink">Nous ecrire</text>
+    <!-- Faithful puzzle proportions: dark 540x500; right block has 774x230 top and 464x238 + 310x238 below, scaled to fit. -->
+    <rect x="28" y="292" width="250" height="232" class="deep"/>
+    <text x="47" y="321" class="micro mist">01 / QUESTION</text><path d="M47 337h212" stroke="#70808a" stroke-width="1.5"/>
+    <text x="47" y="374" class="panel-title white">Quel usage faut-il</text><text x="47" y="396" class="panel-title white">vraiment verifier ?</text>
+    <text x="47" y="447" class="small mist">On commence par</text><text x="47" y="465" class="small mist">la bonne question.</text><circle cx="225" cy="466" r="17" class="sage"/><path d="M217 466h16M225 458v16" stroke="#25323d" stroke-width="2.5"/>
+    <rect x="296" y="292" width="358" height="107" class="brand"/>
+    <text x="314" y="321" class="micro white">02 / ESSAI</text><path d="M314 336h320" stroke="#ced7e2" stroke-width="1.5"/>
+    <path d="M325 371c41-44 83-42 117-8s77 31 177-34" fill="none" stroke="#ced7e2" stroke-width="5"/><circle cx="325" cy="371" r="7" class="sage"/><circle cx="442" cy="363" r="7" class="white"/><circle cx="619" cy="329" r="7" class="sage"/>
+    <rect x="296" y="416" width="215" height="110" class="white" stroke="#25323d" stroke-width="2"/>
+    <text x="314" y="444" class="micro brand">03 / RETOUR TERRAIN</text><text x="314" y="474" class="small ink">Une preuve utile,</text><text x="314" y="493" class="small ink">meme quand elle contredit.</text>
+    <rect x="528" y="416" width="126" height="110" class="sage"/>
+    <text x="545" y="444" class="micro ink">04 / PARTAGE</text><path d="M553 474h32v-13h17v13h32v17h-32v17h-17v-17h-32z" fill="#ced7e2" stroke="#25323d" stroke-width="2"/>
+    <rect x="28" y="552" width="300" height="48" class="brand"/><g transform="translate(42 564)" class="white"><use href="#arrow" width="23" height="23"/></g><text x="76" y="573" class="button-label white">Decouvrez l'univers du</text><text x="76" y="589" class="button-label white">Testeur du Granier</text>
+    <rect x="346" y="552" width="282" height="48" class="mist"/><g transform="translate(360 564)" class="ink"><use href="#arrow" width="23" height="23"/></g><text x="394" y="573" class="button-label ink">Decouvrez nos</text><text x="394" y="589" class="button-label ink">experimentations</text>
+    <text x="28" y="626" class="small brand">Focus visible : anneau continu 3 px #CED7E2, decale de 3 px.</text>
+  </g>
+
+  <!-- Desktop / dark -->
+  <g transform="translate(1110 130)">
+    <text x="0" y="-18" class="micro ink">DESKTOP / VUE SOMBRE</text>
+    <rect width="920" height="650" rx="8" class="night"/>
+    <path d="M0 76h920" class="night-rule"/>
+    <use href="#nct-logo" x="26" y="14" width="48" height="48"/><text x="84" y="39" class="micro night-ink">NOCODE</text><text x="84" y="58" class="small night-soft">TESTING</text>
+    <text x="244" y="47" class="micro night-soft">QUALITE LOGICIELLE</text>
+    <rect x="503" y="17" width="185" height="42" class="mist"/><g transform="translate(516 26)" class="ink"><use href="#sun" width="23" height="23"/></g><text x="547" y="43" class="button-label ink">Passer au mode clair</text>
+    <rect x="710" y="17" width="180" height="42" class="sage"/><g transform="translate(725 27)" class="ink"><use href="#mail" width="21" height="21"/></g><text x="755" y="43" class="button-label ink">Contact</text>
+    <text x="28" y="112" class="micro night-soft">PROTOCOLE 01 / QUALITE LOGICIELLE</text>
+    <text x="28" y="160" class="display night-ink">Tester les idees.</text><text x="28" y="204" class="display night-ink">Garder les preuves.</text>
+    <text x="28" y="234" class="small night-soft">Du terrain et des essais sans</text><text x="28" y="253" class="small night-soft">tableau de bord de theatre.</text>
+    <rect x="720" y="76" width="172" height="320" fill="#465071"/>
+    <text x="738" y="104" class="micro white">EXPLORER / 05</text><path d="M738 116h136" stroke="#ced7e2" stroke-width="1.5"/>
+    <text x="738" y="145" class="small white">01 / Blog</text><rect x="730" y="157" width="152" height="35" class="mist"/><text x="741" y="180" class="small ink">02 / Labo Test &amp; IA</text>
+    <text x="738" y="219" class="small white">03 / Ressources</text><text x="738" y="245" class="small white">04 / A propos</text>
+    <path d="M738 270h136" stroke="#ced7e2" stroke-width="1.5"/>
+    <rect x="748" y="288" width="116" height="44" class="sage"/><g transform="translate(760 299)" class="ink"><use href="#mail" width="21" height="21"/></g><text x="806" y="316" text-anchor="middle" class="button-label ink">Nous ecrire</text>
+    <rect x="28" y="292" width="250" height="232" fill="#10191f"/>
+    <text x="47" y="321" class="micro mist">01 / QUESTION</text><path d="M47 337h212" stroke="#70808a" stroke-width="1.5"/>
+    <text x="47" y="374" class="panel-title white">Quel usage faut-il</text><text x="47" y="396" class="panel-title white">vraiment verifier ?</text>
+    <text x="47" y="447" class="small mist">On commence par</text><text x="47" y="465" class="small mist">la bonne question.</text><circle cx="225" cy="466" r="17" class="sage"/><path d="M217 466h16M225 458v16" stroke="#25323d" stroke-width="2.5"/>
+    <rect x="296" y="292" width="358" height="107" fill="#65709a"/>
+    <text x="314" y="321" class="micro white">02 / ESSAI</text><path d="M314 336h320" stroke="#ced7e2" stroke-width="1.5"/>
+    <path d="M325 371c41-44 83-42 117-8s77 31 177-34" fill="none" stroke="#ced7e2" stroke-width="5"/><circle cx="325" cy="371" r="7" class="sage"/><circle cx="442" cy="363" r="7" class="white"/><circle cx="619" cy="329" r="7" class="sage"/>
+    <rect x="296" y="416" width="215" height="110" fill="#f5f7f3"/><text x="314" y="444" class="micro brand">03 / RETOUR TERRAIN</text><text x="314" y="474" class="small ink">Une preuve utile,</text><text x="314" y="493" class="small ink">meme quand elle contredit.</text>
+    <rect x="528" y="416" width="126" height="110" fill="#819584"/><text x="545" y="444" class="micro ink">04 / PARTAGE</text><path d="M553 474h32v-13h17v13h32v17h-32v17h-17v-17h-32z" fill="#ced7e2" stroke="#25323d" stroke-width="2"/>
+    <rect x="28" y="552" width="300" height="48" fill="#65709a"/><g transform="translate(42 564)" class="white"><use href="#arrow" width="23" height="23"/></g><text x="76" y="573" class="button-label white">Decouvrez l'univers du</text><text x="76" y="589" class="button-label white">Testeur du Granier</text>
+    <rect x="346" y="552" width="282" height="48" class="mist"/><g transform="translate(360 564)" class="ink"><use href="#arrow" width="23" height="23"/></g><text x="394" y="573" class="button-label ink">Decouvrez nos</text><text x="394" y="589" class="button-label ink">experimentations</text>
+    <text x="28" y="626" class="small night-soft">Etat actif : libelle + surface. Focus conserve sur tous les fonds.</text>
+  </g>
+
+  <!-- Mobile / light -->
+  <g transform="translate(398 900)">
+    <text x="0" y="-18" class="micro ink">MOBILE / VUE CLAIRE</text>
+    <rect width="420" height="560" rx="22" class="deep"/><rect x="10" y="10" width="400" height="540" rx="15" class="paper"/>
+    <use href="#nct-logo" x="27" y="25" width="40" height="40"/><text x="75" y="43" class="mobile-micro ink">NOCODE</text><text x="75" y="57" class="mobile-small brand">TESTING</text>
+    <rect x="230" y="25" width="154" height="36" class="mist"/><g transform="translate(240 33)" class="ink"><use href="#moon" width="19" height="19"/></g><text x="266" y="48" class="mobile-small ink">Passer au mode sombre</text>
+    <path d="M10 77h400" class="rule"/>
+    <!-- The mobile navigation remains attached beneath the header, aligned to its right. -->
+    <rect x="210" y="77" width="174" height="124" class="brand"/><text x="222" y="96" class="mobile-micro white">EXPLORER / 05</text>
+    <text x="222" y="116" class="mobile-small white">Blog</text><text x="282" y="116" class="mobile-small white">Ressources</text><rect x="218" y="124" width="158" height="22" class="white"/><text x="225" y="139" class="mobile-small brand">Labo Test &amp; IA</text>
+    <text x="222" y="164" class="mobile-small white">A propos</text><rect x="222" y="172" width="112" height="22" class="sage"/><g transform="translate(230 176)" class="ink"><use href="#mail" width="14" height="14"/></g><text x="284" y="187" text-anchor="middle" class="mobile-small ink">Nous ecrire</text>
+    <text x="27" y="102" class="mobile-micro brand">QUALITE</text><text x="27" y="127" class="mobile-display ink">Tester les idees.</text><text x="27" y="154" class="mobile-display ink">Garder les preuves.</text><text x="27" y="176" class="mobile-small ink">Terrain avant theatre.</text>
+    <!-- Same 540/500 and 774/230, 464/238, 310/238 visual ratios as desktop. -->
+    <rect x="27" y="218" width="126" height="194" class="deep"/><text x="37" y="238" class="mobile-micro mist">01 / QUESTION</text><text x="37" y="267" class="mobile-panel white">Quel usage</text><text x="37" y="283" class="mobile-panel white">verifier ?</text><text x="37" y="349" class="mobile-small mist">Poser avant</text><text x="37" y="363" class="mobile-small mist">de produire.</text><circle cx="126" cy="374" r="12" class="sage"/>
+    <rect x="167" y="218" width="190" height="89" class="brand"/><text x="178" y="238" class="mobile-micro white">02 / ESSAI</text><path d="M178 282c23-30 44-27 66-5s44 17 99-22" fill="none" stroke="#ced7e2" stroke-width="4"/>
+    <rect x="167" y="321" width="115" height="92" class="white" stroke="#25323d" stroke-width="1.5"/><text x="177" y="341" class="mobile-micro brand">03 / TERRAIN</text><text x="177" y="369" class="mobile-small ink">Preuve utile,</text><text x="177" y="383" class="mobile-small ink">meme contraire.</text>
+    <rect x="296" y="321" width="61" height="92" class="sage"/><text x="303" y="341" class="mobile-micro ink">04</text><path d="M306 369h14v-7h9v7h14v9h-14v8h-9v-8h-14z" fill="#ced7e2" stroke="#25323d" stroke-width="1.5"/>
+    <rect x="27" y="438" width="170" height="52" class="brand"/><g transform="translate(37 451)" class="white"><use href="#arrow" width="20" height="20"/></g><text x="65" y="458" class="mobile-small white">Decouvrez l'univers</text><text x="65" y="474" class="mobile-small white">du Testeur du Granier</text>
+    <rect x="207" y="438" width="150" height="52" class="mist"/><g transform="translate(217 451)" class="ink"><use href="#arrow" width="20" height="20"/></g><text x="245" y="458" class="mobile-small ink">Decouvrez nos</text><text x="245" y="474" class="mobile-small ink">experimentations</text>
+    <text x="27" y="520" class="mobile-small brand">CTA : retour a la ligne autorise, hauteur min. 44 px.</text>
+  </g>
+
+  <!-- Mobile / dark -->
+  <g transform="translate(1240 900)">
+    <text x="0" y="-18" class="micro ink">MOBILE / VUE SOMBRE</text>
+    <rect width="420" height="560" rx="22" class="deep"/><rect x="10" y="10" width="400" height="540" rx="15" class="night"/>
+    <use href="#nct-logo" x="27" y="25" width="40" height="40"/><text x="75" y="43" class="mobile-micro night-ink">NOCODE</text><text x="75" y="57" class="mobile-small night-soft">TESTING</text>
+    <rect x="230" y="25" width="154" height="36" class="mist"/><g transform="translate(240 33)" class="ink"><use href="#sun" width="19" height="19"/></g><text x="266" y="48" class="mobile-small ink">Passer au mode clair</text>
+    <path d="M10 77h400" class="night-rule"/>
+    <rect x="210" y="77" width="174" height="124" fill="#465071"/><text x="222" y="96" class="mobile-micro white">EXPLORER / 05</text>
+    <text x="222" y="116" class="mobile-small white">Blog</text><text x="282" y="116" class="mobile-small white">Ressources</text><rect x="218" y="124" width="158" height="22" class="mist"/><text x="225" y="139" class="mobile-small ink">Labo Test &amp; IA</text>
+    <text x="222" y="164" class="mobile-small white">A propos</text><rect x="222" y="172" width="112" height="22" class="sage"/><g transform="translate(230 176)" class="ink"><use href="#mail" width="14" height="14"/></g><text x="284" y="187" text-anchor="middle" class="mobile-small ink">Nous ecrire</text>
+    <text x="27" y="102" class="mobile-micro night-soft">QUALITE</text><text x="27" y="127" class="mobile-display night-ink">Tester les idees.</text><text x="27" y="154" class="mobile-display night-ink">Garder les preuves.</text><text x="27" y="176" class="mobile-small night-soft">Terrain avant theatre.</text>
+    <rect x="27" y="218" width="126" height="194" fill="#10191f"/><text x="37" y="238" class="mobile-micro mist">01 / QUESTION</text><text x="37" y="267" class="mobile-panel white">Quel usage</text><text x="37" y="283" class="mobile-panel white">verifier ?</text><text x="37" y="349" class="mobile-small mist">Poser avant</text><text x="37" y="363" class="mobile-small mist">de produire.</text><circle cx="126" cy="374" r="12" class="sage"/>
+    <rect x="167" y="218" width="190" height="89" fill="#65709a"/><text x="178" y="238" class="mobile-micro white">02 / ESSAI</text><path d="M178 282c23-30 44-27 66-5s44 17 99-22" fill="none" stroke="#ced7e2" stroke-width="4"/>
+    <rect x="167" y="321" width="115" height="92" fill="#f5f7f3"/><text x="177" y="341" class="mobile-micro brand">03 / TERRAIN</text><text x="177" y="369" class="mobile-small ink">Preuve utile,</text><text x="177" y="383" class="mobile-small ink">meme contraire.</text>
+    <rect x="296" y="321" width="61" height="92" fill="#819584"/><text x="303" y="341" class="mobile-micro ink">04</text><path d="M306 369h14v-7h9v7h14v9h-14v8h-9v-8h-14z" fill="#ced7e2" stroke="#25323d" stroke-width="1.5"/>
+    <rect x="27" y="438" width="170" height="52" fill="#65709a"/><g transform="translate(37 451)" class="white"><use href="#arrow" width="20" height="20"/></g><text x="65" y="458" class="mobile-small white">Decouvrez l'univers</text><text x="65" y="474" class="mobile-small white">du Testeur du Granier</text>
+    <rect x="207" y="438" width="150" height="52" class="mist"/><g transform="translate(217 451)" class="ink"><use href="#arrow" width="20" height="20"/></g><text x="245" y="458" class="mobile-small ink">Decouvrez nos</text><text x="245" y="474" class="mobile-small ink">experimentations</text>
+    <text x="27" y="520" class="mobile-small night-soft">Etat clair confirme : libelle et icone restent explicites.</text>
+  </g>
+  <text x="70" y="1510" class="small ink">Palette : ardoise #5D648C, bleu gris #CED7E2, encre #25323D, fond teinte #E8EDF1, vert grise #A8B8AA. Le vert grise est un aplat discret : il distingue partage et contact sans concurrencer la palette de marque.</text>
+  <text x="70" y="1536" class="small brand">Implementation future : preference systeme au premier chargement, choix utilisateur persiste ; le controle expose son etat et reste focalisable. Le theme sombre est specifique, jamais une inversion mecanique.</text>
+</svg>

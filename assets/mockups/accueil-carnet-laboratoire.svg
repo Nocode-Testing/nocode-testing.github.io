@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Maquette accueil Nocode Testing - Carnet laboratoire</title>
+  <desc id="desc">Planche montrant les versions desktop et mobile d'un accueil editorial inspire d'un carnet de laboratoire.</desc>
+  <style>
+    .canvas{fill:#f2f0ea}.screen{fill:#fffefa;stroke:#c9c9c0;stroke-width:2}.ink{fill:#1c292b}.muted{fill:#5c6968}.brand{fill:#5d648c}.pale{fill:#ced7e2}.warm{fill:#a5523f}.grid{stroke:#d9ddd5;stroke-width:1}.rule{stroke:#1c292b;stroke-width:2}.label{font:600 15px Arial,sans-serif;letter-spacing:1px}.nav{font:500 16px Arial,sans-serif}.body{font:400 20px Arial,sans-serif}.small{font:400 15px Arial,sans-serif}.title{font:700 52px Georgia,serif}.mobile-title{font:700 34px Georgia,serif}.badge{font:600 14px Arial,sans-serif;letter-spacing:.8px}
+  </style>
+  <rect class="canvas" width="1600" height="1040"/>
+  <text x="72" y="64" class="label ink">DIRECTION 02 / ALTERNATIVE</text>
+  <text x="72" y="94" class="body muted">CARNET DE LABORATOIRE - plus editorial, pour faire du blog le premier geste d'accueil</text>
+  <text x="72" y="132" class="small muted">Accueil et header - desktop 1440 px + mobile 390 px</text>
+
+  <rect x="72" y="170" width="1050" height="760" rx="8" class="screen"/>
+  <g opacity=".8"><path d="M72 290h1050M72 350h1050M72 410h1050M72 470h1050M72 530h1050M72 590h1050M72 650h1050M72 710h1050M72 770h1050M72 830h1050" class="grid"/><path d="M190 170v760M310 170v760M430 170v760M550 170v760M670 170v760M790 170v760M910 170v760M1030 170v760" class="grid"/></g>
+  <rect x="72" y="170" width="1050" height="72" fill="#fffefa"/>
+  <circle cx="114" cy="206" r="20" class="brand"/><path d="M104 206h20M114 196v20" stroke="#ffffff" stroke-width="3"/>
+  <text x="148" y="211" class="label ink">NOCODE TESTING</text><text x="480" y="211" class="nav ink">Blog</text><text x="544" y="211" class="nav ink">Labo Test &amp; IA</text><text x="700" y="211" class="nav ink">Ressources</text><text x="815" y="211" class="nav ink">A propos</text>
+  <text x="968" y="211" class="nav brand">Contact +</text><line x1="72" y1="242" x2="1122" y2="242" class="rule"/>
+  <text x="130" y="310" class="badge warm">CARNET 001 / QUALITE LOGICIELLE</text>
+  <text x="130" y="376" class="title ink">Les tests qui</text><text x="130" y="438" class="title ink">aident vraiment.</text>
+  <text x="130" y="488" class="body muted">Qualite logicielle, recits de terrain et laboratoires IA.</text>
+  <text x="130" y="520" class="body muted">On mesure avant d'affirmer. En general, cela aide.</text>
+  <rect x="130" y="560" width="190" height="49" class="brand"/><text x="154" y="591" class="nav" fill="#ffffff">Ouvrir le carnet</text>
+  <text x="130" y="654" class="small ink">01 / Article recent</text><line x1="130" y1="670" x2="585" y2="670" class="rule"/>
+  <text x="130" y="708" class="body ink">Un bug reproductible est deja une conversation plus sereine.</text>
+  <text x="130" y="740" class="small muted">Le testeur du granier - 6 min de lecture</text>
+
+  <rect x="685" y="292" width="334" height="445" fill="#ffffff" stroke="#1c292b" stroke-width="2"/>
+  <rect x="710" y="320" width="118" height="28" fill="#ced7e2"/><text x="725" y="340" class="badge brand">FICHE LABO</text>
+  <text x="710" y="388" class="body ink">Experience</text><text x="710" y="421" class="body ink">Labo Test &amp; IA</text>
+  <line x1="710" y1="444" x2="990" y2="444" class="rule"/>
+  <text x="710" y="480" class="small muted">Question</text><text x="710" y="507" class="small ink">Peut-on rendre un test plus lisible</text><text x="710" y="529" class="small ink">sans perdre sa precision ?</text>
+  <text x="710" y="577" class="small muted">Statut</text><rect x="710" y="590" width="135" height="28" fill="#a5523f"/><text x="725" y="610" class="badge" fill="#ffffff">EN OBSERVATION</text>
+  <circle cx="948" cy="610" r="25" class="brand"/><path d="M936 610h24M948 598v24" stroke="#ffffff" stroke-width="3"/>
+  <text x="710" y="684" class="small brand">Consulter le labo +</text>
+  <rect x="130" y="796" width="889" height="84" fill="#ced7e2"/>
+  <text x="158" y="831" class="label brand">RESSOURCES VERIFIEES</text><text x="158" y="858" class="small ink">Des liens utiles, selectionnes avant d'etre poses sur l'etabli.</text>
+  <text x="815" y="844" class="nav brand">Explorer les ressources +</text>
+
+  <rect x="1200" y="170" width="330" height="760" rx="20" fill="#1c292b"/>
+  <rect x="1212" y="188" width="306" height="724" rx="14" fill="#fffefa"/>
+  <g opacity=".7"><path d="M1212 310h306M1212 370h306M1212 430h306M1212 490h306M1212 550h306M1212 610h306M1212 670h306M1212 730h306M1212 790h306M1212 850h306" class="grid"/></g>
+  <circle cx="1240" cy="219" r="14" class="brand"/><path d="M1233 219h14M1240 212v14" stroke="#ffffff" stroke-width="2"/><text x="1264" y="224" class="small ink">NOCODE TESTING</text><text x="1485" y="224" class="body ink">=</text>
+  <line x1="1212" y1="250" x2="1518" y2="250" class="rule"/>
+  <text x="1240" y="294" class="badge warm">QUALITE LOGICIELLE</text>
+  <text x="1240" y="346" class="mobile-title ink">Les tests qui</text><text x="1240" y="387" class="mobile-title ink">aident vraiment.</text>
+  <text x="1240" y="426" class="small muted">Terrain, methodes et laboratoire IA.</text>
+  <rect x="1240" y="462" width="177" height="45" class="brand"/><text x="1261" y="491" class="small" fill="#ffffff">Ouvrir le carnet</text>
+  <text x="1240" y="562" class="small ink">01 / ARTICLE RECENT</text><line x1="1240" y1="578" x2="1490" y2="578" class="rule"/>
+  <text x="1240" y="616" class="small ink">Un bug reproductible est deja</text><text x="1240" y="638" class="small ink">une conversation plus sereine.</text>
+  <rect x="1240" y="690" width="250" height="120" fill="#ced7e2"/>
+  <text x="1260" y="723" class="badge brand">FICHE LABO</text><text x="1260" y="754" class="small ink">Labo Test &amp; IA</text><text x="1260" y="781" class="small muted">En observation</text>
+  <text x="72" y="982" class="small muted">Variation plus editoriale : grille de carnet, surfaces ecrues et fiches de protocole. Textes et donnees simulés.</text>
+</svg>

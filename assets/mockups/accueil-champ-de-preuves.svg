@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Nocode Testing - Champ de preuves</title>
+  <desc id="desc">Planche de maquette statique montrant un accueil desktop et mobile. La direction forme un laboratoire graphique avec une grille de cartes et de vecteurs de verification abstraits.</desc>
+  <style>
+    .bg{fill:#f4f0e9}.screen{fill:#fffdf8;stroke:#28334a;stroke-width:2}.ink{fill:#28334a}.brand{fill:#5d648c}.pale{fill:#ced7e2}.yellow{fill:#f2c94c}.red{fill:#d85c57}.cyan{fill:#5bc1c6}.white{fill:#fff}.stroke{stroke:#28334a;stroke-width:2}.thin{stroke:#5d648c;stroke-width:2}.grid{stroke:#d5dce3;stroke-width:1}.overline{font:700 13px Arial,sans-serif;letter-spacing:1.4px}.nav{font:600 15px Arial,sans-serif}.body{font:400 18px Arial,sans-serif}.small{font:400 14px Arial,sans-serif}.title{font:700 55px Georgia,serif}.mtitle{font:700 35px Georgia,serif}.card{font:700 20px Georgia,serif}
+  </style>
+  <rect width="1600" height="1040" class="bg"/>
+  <text x="62" y="54" class="overline ink">DIRECTION 02 / ALTERNATIVE EXPERIMENTALE</text>
+  <text x="62" y="84" class="body ink">CHAMP DE PREUVES - un tableau de test vivant, entre puzzle abstrait et revue de qualite</text>
+  <text x="62" y="112" class="small brand">Accueil + header / desktop 1440 px et mobile 390 px / maquette SVG statique</text>
+
+  <rect x="62" y="145" width="1080" height="805" rx="7" class="screen"/>
+  <g opacity=".7"><path d="M62 285h1080M62 425h1080M62 565h1080M62 705h1080M62 845h1080M202 145v805M342 145v805M482 145v805M622 145v805M762 145v805M902 145v805M1042 145v805" class="grid"/></g>
+  <rect x="62" y="145" width="1080" height="83" class="white"/><path d="M62 228h1080" class="stroke"/>
+  <rect x="92" y="165" width="44" height="44" class="brand"/><path d="M101 198l13-22 13 22M108 187h12" stroke="#fff" stroke-width="2" fill="none"/>
+  <text x="150" y="183" class="overline ink">NOCODE</text><text x="150" y="201" class="small brand">TESTING</text>
+  <text x="496" y="192" class="nav ink">Blog</text><text x="552" y="192" class="nav ink">Labo Test &amp; IA</text><text x="700" y="192" class="nav ink">Ressources</text><text x="813" y="192" class="nav ink">A propos</text>
+  <rect x="959" y="169" width="145" height="40" class="ink"/><text x="991" y="194" class="nav white">Contact</text>
+
+  <text x="98" y="285" class="overline red">QUALITE LOGICIELLE / CHAMP 07</text>
+  <text x="98" y="356" class="title ink">Une bonne idee ?</text><text x="98" y="418" class="title ink">Faisons-la passer</text><text x="98" y="480" class="title ink">dans le tamis.</text>
+  <text x="100" y="528" class="body brand">Le test logiciel et le Labo Test &amp; IA, cote preuves.</text><text x="100" y="556" class="body ink">On garde les paillettes pour les donnees qui les meritent.</text>
+  <rect x="98" y="593" width="177" height="50" class="brand"/><text x="122" y="625" class="nav white">Lire le blog</text>
+  <rect x="293" y="593" width="168" height="50" fill="none" stroke="#28334a" stroke-width="2"/><text x="321" y="625" class="nav ink">Voir le labo</text>
+  <text x="99" y="683" class="small brand">MODE D'EMPLOI : manipuler les affirmations avec des gants de test.</text>
+
+  <!-- Dispositif de laboratoire abstrait, fait de tuiles, flux et marqueurs. -->
+  <rect x="620" y="263" width="448" height="405" class="ink"/>
+  <text x="648" y="296" class="overline yellow">MATRICE D'EXPLORATION</text>
+  <rect x="650" y="326" width="104" height="104" class="pale"/><rect x="772" y="326" width="104" height="104" class="yellow"/><rect x="894" y="326" width="104" height="104" class="cyan"/>
+  <rect x="650" y="448" width="104" height="104" class="cyan"/><rect x="772" y="448" width="104" height="104" class="brand"/><rect x="894" y="448" width="104" height="104" class="red"/>
+  <path d="M702 378h122m-61-61v122M824 378h122m-61-61v122M702 500h122m-61-61v122M824 500h122m-61-61v122" stroke="#28334a" stroke-width="2" fill="none"/>
+  <circle cx="702" cy="378" r="13" class="white"/><circle cx="946" cy="500" r="13" class="white"/><path d="M715 378h45M885 500h45" stroke="#fff" stroke-width="3"/>
+  <text x="650" y="593" class="small pale">entrees</text><text x="774" y="593" class="small yellow">criteres</text><text x="894" y="593" class="small cyan">signaux</text>
+  <path d="M650 625h348" stroke="#fff" stroke-width="1"/><text x="650" y="650" class="small white">La carte ne promet rien. Elle aide a poser de meilleures questions.</text>
+
+  <rect x="98" y="757" width="970" height="151" class="white" stroke="#28334a" stroke-width="2"/>
+  <rect x="98" y="757" width="13" height="151" class="red"/><text x="135" y="790" class="overline brand">TROIS CASES A OUVRIR</text>
+  <text x="135" y="831" class="card ink">Le testeur du granier</text><text x="135" y="858" class="small brand">Du terrain, du recul, et parfois un bug tres bavard.</text>
+  <path d="M468 785v94M772 785v94" class="thin"/>
+  <text x="497" y="831" class="card ink">Labo Test &amp; IA</text><text x="497" y="858" class="small brand">Des prototypes qui supportent la question : pourquoi ?</text>
+  <text x="801" y="831" class="card ink">Ressources</text><text x="801" y="858" class="small brand">Les outils et lectures qui passent le premier filtre.</text>
+
+  <rect x="1200" y="145" width="330" height="805" rx="24" class="ink"/><rect x="1212" y="163" width="306" height="770" rx="15" class="white"/>
+  <rect x="1212" y="163" width="306" height="70" rx="15" class="white"/><path d="M1212 233h306" class="stroke"/>
+  <rect x="1230" y="180" width="33" height="33" class="brand"/><path d="M1237 205l9-17 9 17" stroke="#fff" stroke-width="2" fill="none"/><text x="1272" y="193" class="overline ink">NOCODE</text><text x="1272" y="209" class="small brand">TESTING</text><text x="1482" y="204" class="body ink">=</text>
+  <text x="1237" y="276" class="overline red">QUALITE LOGICIELLE</text>
+  <text x="1237" y="340" class="mtitle ink">Une bonne idee ?</text><text x="1237" y="381" class="mtitle ink">Passons-la dans</text><text x="1237" y="422" class="mtitle ink">le tamis.</text>
+  <text x="1237" y="453" class="small brand">Tests, terrain et Labo Test &amp; IA.</text>
+  <rect x="1237" y="484" width="150" height="46" class="brand"/><text x="1260" y="513" class="small white">Lire le blog</text>
+  <rect x="1237" y="563" width="256" height="205" class="ink"/><text x="1256" y="593" class="overline yellow">MATRICE 07</text>
+  <rect x="1258" y="617" width="62" height="62" class="pale"/><rect x="1334" y="617" width="62" height="62" class="yellow"/><rect x="1410" y="617" width="62" height="62" class="cyan"/>
+  <rect x="1258" y="693" width="62" height="46" class="cyan"/><rect x="1334" y="693" width="62" height="46" class="brand"/><rect x="1410" y="693" width="62" height="46" class="red"/>
+  <text x="1237" y="807" class="card ink">Labo Test &amp; IA</text><text x="1237" y="833" class="small brand">Ouvrir les experiences</text><path d="M1237 858h255" class="thin"/><text x="1237" y="884" class="small ink">La conviction passe par la case test.</text>
+  <text x="62" y="994" class="small brand">Palette : bleu ardoise #5D648C, bleu gris #CED7E2, encre #28334A. Jaune, cyan et rouge servent de reperes redondants avec le texte et la forme.</text>
+</svg>

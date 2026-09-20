@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Nocode Testing - Direction artistique Labo puzzle</title>
+  <desc id="desc">Direction originale pour Nocode Testing : panneaux modulaires, parcours de verification et geometrie experimentale.</desc>
+  <style>
+    .paper{fill:#eef1ed}.ink{fill:#24313d}.brand{fill:#5d648c}.mist{fill:#ced7e2}.acid{fill:#d6e65e}.coral{fill:#df765d}.line{stroke:#24313d;stroke-width:3;fill:none}.thin{stroke:#5d648c;stroke-width:2;fill:none}.micro{font:600 14px 'Space Grotesk',Arial,sans-serif;letter-spacing:1.7px}.body{font:400 19px 'IBM Plex Sans',Arial,sans-serif}.display{font:600 56px 'Space Grotesk',Arial,sans-serif;letter-spacing:0}.tiny{font:400 14px 'IBM Plex Sans',Arial,sans-serif}
+  </style>
+  <rect width="1600" height="1000" class="paper"/>
+  <path d="M0 170H1600M0 830H1600" stroke="#d5ddd7" stroke-width="2"/>
+  <text x="76" y="78" class="micro ink">NOCODE TESTING / DIRECTION 03</text>
+  <text x="76" y="122" class="body brand">Labo puzzle - expressif, editorial, precis. Geometrie originale et parcours visibles.</text>
+
+  <g transform="translate(76 200)">
+    <rect width="540" height="500" rx="8" class="ink"/>
+    <text x="34" y="48" class="micro" fill="#d6e65e">PRINCIPE / PANNEAUX ACTIFS</text>
+    <path d="M35 103H508M35 218H508M35 333H508" stroke="#52616c" stroke-width="2"/>
+    <text x="34" y="162" class="display" fill="#fff">Les preuves</text>
+    <text x="34" y="218" class="display" fill="#fff">s'assemblent.</text>
+    <text x="34" y="385" class="body" fill="#ced7e2">Chaque module indique une etape :</text>
+    <text x="34" y="414" class="body" fill="#ced7e2">question, essai, retour de terrain.</text>
+    <circle cx="450" cy="413" r="42" class="acid"/>
+    <path d="M430 413h40M450 393v40" stroke="#24313d" stroke-width="4"/>
+    <text x="34" y="465" class="tiny" fill="#fff">Humour admis. Brouillard marketing refuse a l'entree.</text>
+  </g>
+
+  <g transform="translate(654 200)">
+    <rect width="310" height="230" rx="8" class="mist"/>
+    <text x="26" y="40" class="micro brand">01 / QUESTION</text>
+    <path d="M28 75h254" class="thin"/>
+    <text x="26" y="130" class="body ink">Est-ce que le parcours</text>
+    <text x="26" y="157" class="body ink">tient vraiment debout ?</text>
+    <path d="M28 194h118" stroke="#df765d" stroke-width="7"/>
+    <circle cx="169" cy="194" r="11" class="coral"/>
+
+    <rect x="342" width="464" height="230" rx="8" class="brand"/>
+    <text x="368" y="40" class="micro" fill="#fff">02 / ESSAI</text>
+    <path d="M370 75h390" stroke="#ced7e2" stroke-width="2"/>
+    <path d="M390 175C440 105 509 103 548 163S655 211 725 117" stroke="#d6e65e" stroke-width="6" fill="none"/>
+    <circle cx="390" cy="175" r="13" class="coral"/><circle cx="548" cy="163" r="13" class="acid"/><circle cx="725" cy="117" r="13" class="coral"/>
+    <text x="368" y="207" class="tiny" fill="#fff">Un chemin n'est pas un schema. Il doit se laisser parcourir.</text>
+
+    <rect y="262" width="464" height="238" rx="8" fill="#fff" stroke="#24313d" stroke-width="3"/>
+    <text x="26" y="302" class="micro brand">03 / RETOUR TERRAIN</text>
+    <text x="26" y="354" class="body ink">Tester, apprendre, recommencer.</text>
+    <text x="26" y="384" class="body brand">Oui, c'est moins magique. Heureusement.</text>
+    <rect x="26" y="420" width="165" height="45" rx="4" class="ink"/>
+    <text x="49" y="449" class="tiny" fill="#fff">OUVRIR LE JOURNAL</text>
+
+    <rect x="496" y="262" width="310" height="238" rx="8" class="coral"/>
+    <text x="522" y="302" class="micro ink">PIECE A / PASSE-PARTOUT</text>
+    <path d="M543 355h88v-38h42v38h88v42h-88v42h-42v-42h-88z" fill="#d6e65e" stroke="#24313d" stroke-width="3"/>
+    <text x="522" y="468" class="tiny ink">Des formes qui guident, pas des gadgets qui expliquent.</text>
+  </g>
+
+  <text x="76" y="906" class="micro brand">PALETTE</text>
+  <circle cx="180" cy="901" r="14" class="brand"/><text x="205" y="906" class="tiny ink">Ardoise #5D648C</text>
+  <circle cx="366" cy="901" r="14" class="mist"/><text x="391" y="906" class="tiny ink">Brume #CED7E2</text>
+  <circle cx="540" cy="901" r="14" class="acid"/><text x="565" y="906" class="tiny ink">Citron #D6E65E</text>
+  <circle cx="713" cy="901" r="14" class="coral"/><text x="738" y="906" class="tiny ink">Corail #DF765D</text>
+  <text x="76" y="952" class="tiny brand">Typographies envisagees : Space Grotesk (titres et reperes) + IBM Plex Sans (lecture). Disponibles en open source, a charger seulement apres validation technique.</text>
+</svg>

@@ -8,7 +8,7 @@ Le projet repart de zero: l'ancienne base Docusaurus a ete retiree pour laisser 
 
 Le repository sert actuellement de point de depart propre avant la mise en ligne du site.
 
-La stack, le contenu, l'identite visuelle et la cible de deploiement restent a confirmer. Les questions de cadrage et les decisions sont suivies dans [build-app.md](./build-app.md).
+Le site sera une vitrine de `nocode-testing`, avec le blog professionnel "Le testeur du granier", une rubrique d'experimentations IA, des ressources, une page a propos et un contact. La stack detaillee reste a choisir. Les questions et decisions de cadrage sont suivies dans [build-app.md](./build-app.md).
 
 ## Organisation du projet
 
@@ -18,11 +18,13 @@ Les notes de contexte technique et UI sont respectivement maintenues dans [hando
 
 ## Developpement
 
-Node.js 18 ou version ulterieure est requis. Aucun script de build, test ou developpement n'est defini tant que la stack n'a pas ete choisie.
+Node.js 18 ou version ulterieure est requis. Aucun script de build, test ou developpement n'est encore defini : ils seront ajoutes avec la stack retenue.
 
 ## Publication
 
-Le deploiement GitHub Pages n'est pas encore reconfigure pour la nouvelle version du site.
+Le code sera heberge sur GitHub et deploye sur Vercel. Deux environnements sont prevus : une recette protegee par mot de passe et une production publique, toutes deux en HTTPS. Une CI devra verifier chaque increment avant la recette puis la production.
+
+Les elements de marque (logo et charte graphique) sont conserves dans `assets/brand/`.
 
 ## Licence
 

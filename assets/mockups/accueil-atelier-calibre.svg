@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Maquette accueil Nocode Testing - Atelier calibre</title>
+  <desc id="desc">Planche montrant les versions desktop et mobile d'un accueil professionnel inspire d'un atelier de test logiciel.</desc>
+  <style>
+    .canvas{fill:#e9eef2}.screen{fill:#fbfcfc;stroke:#bfcad3;stroke-width:2}.ink{fill:#182331}.muted{fill:#526273}.brand{fill:#5d648c}.pale{fill:#ced7e2}.warm{fill:#b86445}.line{stroke:#aab7c2;stroke-width:2}.thin{stroke:#5d648c;stroke-width:2}.label{font:600 15px Arial,sans-serif;letter-spacing:1px}.nav{font:500 16px Arial,sans-serif}.body{font:400 20px Arial,sans-serif}.small{font:400 15px Arial,sans-serif}.title{font:700 52px Georgia,serif}.mobile-title{font:700 34px Georgia,serif}.badge{font:600 14px Arial,sans-serif;letter-spacing:.8px}
+  </style>
+  <rect class="canvas" width="1600" height="1040"/>
+  <text x="72" y="64" class="label ink">DIRECTION 01 / RECOMMANDEE</text>
+  <text x="72" y="94" class="body muted">ATELIER CALIBRE - laboratoire professionnel, detail de protocole et humour discret</text>
+  <text x="72" y="132" class="small muted">Accueil et header - desktop 1440 px + mobile 390 px</text>
+
+  <rect x="72" y="170" width="1050" height="760" rx="8" class="screen"/>
+  <rect x="72" y="170" width="1050" height="70" rx="8" class="brand"/>
+  <circle cx="112" cy="205" r="19" fill="#ffffff"/>
+  <path d="M105 205h14M112 198v14" stroke="#5d648c" stroke-width="3"/>
+  <text x="145" y="211" class="label" fill="#ffffff">NOCODE TESTING</text>
+  <text x="486" y="211" class="nav" fill="#ffffff">Blog</text><text x="548" y="211" class="nav" fill="#ffffff">Labo Test &amp; IA</text><text x="704" y="211" class="nav" fill="#ffffff">Ressources</text><text x="819" y="211" class="nav" fill="#ffffff">A propos</text>
+  <rect x="944" y="187" width="142" height="36" rx="4" fill="#ffffff"/><text x="974" y="211" class="nav brand">Contact</text>
+
+  <text x="130" y="310" class="badge warm">PROTOCOLE 01 / QUALITE LOGICIELLE</text>
+  <text x="130" y="375" class="title ink">Tester avec methode.</text>
+  <text x="130" y="436" class="title ink">Explorer avec curiosite.</text>
+  <text x="130" y="484" class="body muted">Qualite logicielle, retours de terrain et experiences IA</text>
+  <text x="130" y="514" class="body muted">pour les equipes qui preferent les preuves aux incantations.</text>
+  <rect x="130" y="555" width="185" height="50" rx="4" class="brand"/><text x="158" y="587" class="nav" fill="#ffffff">Lire le blog</text>
+  <rect x="331" y="555" width="175" height="50" rx="4" fill="#ffffff" stroke="#5d648c" stroke-width="2"/><text x="358" y="587" class="nav brand">Nous ecrire</text>
+  <text x="130" y="644" class="small muted">Note de laboratoire : aucun canard de debug n'a ete maltraite.</text>
+
+  <rect x="715" y="292" width="320" height="370" rx="8" class="pale"/>
+  <text x="750" y="334" class="label brand">TABLEAU DE BORD / ESSAI</text>
+  <rect x="750" y="365" width="250" height="1" class="brand"/>
+  <text x="750" y="407" class="small ink">Hypothese</text><text x="870" y="407" class="small muted">Le parcours reste clair</text>
+  <text x="750" y="454" class="small ink">Observation</text><text x="870" y="454" class="small muted">3 cas explores</text>
+  <text x="750" y="501" class="small ink">Verdict</text><text x="870" y="501" class="small warm">A verifier en recette</text>
+  <circle cx="785" cy="574" r="25" fill="#5d648c"/><path d="M772 574l9 9 18-21" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <text x="825" y="580" class="body ink">Cas de test vivant</text>
+  <path d="M1018 292v370" class="thin" stroke-dasharray="5 8"/>
+  <text x="736" y="705" class="small muted">Instrument visuel : repere de protocole,</text><text x="736" y="727" class="small muted">pas une promesse de statistiques reelles.</text>
+
+  <rect x="112" y="730" width="970" height="150" rx="6" fill="#ffffff" stroke="#ced7e2" stroke-width="2"/>
+  <text x="142" y="765" class="label brand">TROIS ENTREES, UN MEME ATELIER</text>
+  <line x1="426" y1="752" x2="426" y2="850" class="line"/><line x1="746" y1="752" x2="746" y2="850" class="line"/>
+  <text x="142" y="805" class="body ink">Le testeur du granier</text><text x="142" y="836" class="small muted">Observations, methodes et angles utiles.</text>
+  <text x="458" y="805" class="body ink">Labo Test &amp; IA</text><text x="458" y="836" class="small muted">Prototypes examines sans poudre aux yeux.</text>
+  <text x="778" y="805" class="body ink">Ressources</text><text x="778" y="836" class="small muted">Les reperes qui meritent le detour.</text>
+
+  <rect x="1200" y="170" width="330" height="760" rx="20" fill="#182331"/>
+  <rect x="1212" y="188" width="306" height="724" rx="14" fill="#fbfcfc"/>
+  <rect x="1212" y="188" width="306" height="61" rx="14" class="brand"/>
+  <circle cx="1242" cy="218" r="14" fill="#ffffff"/><path d="M1236 218h12M1242 212v12" stroke="#5d648c" stroke-width="2"/>
+  <text x="1268" y="223" class="small" fill="#ffffff">NOCODE TESTING</text><text x="1482" y="223" class="body" fill="#ffffff">=</text>
+  <text x="1240" y="293" class="badge warm">QUALITE LOGICIELLE</text>
+  <text x="1240" y="345" class="mobile-title ink">Tester avec</text><text x="1240" y="386" class="mobile-title ink">methode. Explorer</text><text x="1240" y="427" class="mobile-title ink">avec curiosite.</text>
+  <text x="1240" y="466" class="small muted">Retours de terrain et experiences IA.</text>
+  <rect x="1240" y="500" width="162" height="46" rx="4" class="brand"/><text x="1264" y="530" class="small" fill="#ffffff">Lire le blog</text>
+  <rect x="1240" y="574" width="250" height="126" rx="6" class="pale"/>
+  <text x="1260" y="607" class="badge brand">ESSAI EN COURS</text><text x="1260" y="642" class="small ink">Un parcours clair vaut</text><text x="1260" y="666" class="small ink">mieux qu'un effet waouh.</text>
+  <text x="1240" y="745" class="small muted">Note : pas de magie, juste des tests.</text>
+  <line x1="1240" y1="778" x2="1490" y2="778" class="line"/>
+  <text x="1240" y="816" class="body ink">Labo Test &amp; IA</text><text x="1240" y="846" class="small muted">Voir les experiences</text>
+  <text x="72" y="982" class="small muted">Codes de maquette : bleu ardoise #5D648C, bleu gris #CED7E2, encre #182331, accent test #B86445. Textes et donnees simulés.</text>
+</svg>
