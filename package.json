@@ -5,6 +5,6 @@
   "description": "Base propre pour le futur site nocode-testing.com.",
   "scripts": {},
   "engines": {
-    "node": ">=18.0"
+    "node": ">=22.0"
   }
 }

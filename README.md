@@ -18,7 +18,7 @@ Les notes de contexte technique et UI sont respectivement maintenues dans [hando
 
 ## Developpement
 
-Node.js 18 ou version ulterieure est requis. Aucun script de build, test ou developpement n'est encore defini : ils seront ajoutes avec la stack retenue.
+Node.js 22 LTS est la version cible du MVP. Eleventy, HTML/CSS/JavaScript natif et les scripts de build, test et developpement seront ajoutes lors du premier incrément technique.
 
 ## Publication
 

@@ -24,6 +24,9 @@ Ces procedures decrivent le fonctionnement du projet `nocode-testing.com`.
 | [08](08-incident-retour-arriere-et-post-mortem.md) | Gerer un incident et son retour arriere |
 | [09](09-formulaire-contact-et-messagerie.md) | Mettre en service le formulaire et SMTP |
 | [10](10-rgpd-demandes-et-conservation.md) | Traiter les demandes RGPD et la conservation |
+| [11](11-projet-politique-confidentialite.md) | Projet de politique de confidentialité à relire humainement |
+| [Contrat API](12-contrat-api-contact.md) | Contrat API du formulaire de contact |
+| [Handoff frontend](12-handoff-frontend-contact.md) | Cadrer le frontend du formulaire `/contact/` |
 
 ## Questions bloquantes
 

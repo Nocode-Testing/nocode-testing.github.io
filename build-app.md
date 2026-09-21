@@ -650,3 +650,84 @@ La planche de direction est un SVG plutôt qu'un bitmap généré. Ce choix gard
 Le commanditaire confirme que la première version proposée convient pour lancer le MVP. La référence de handoff UI est `assets/mockups/accueil-puzzle-ateliers-themes.svg`, avec ses thèmes clair et sombre, ses quatre panneaux, son header et sa navigation rattachée. Toute évolution ultérieure devra partir de cette référence validée.
 
 **Prochain incrément proposé :** cadrage produit de l'accueil et du header, puis création des exigences et tickets associés. Le développement ne débute qu'après validation de ce cadrage et de la stack.
+
+### 7.17 Six éléments de cadrage à relire avant les tickets accueil/header
+
+Ces six points regroupent les décisions demandées à Scarce avant la création de `REQ-001` et des premières US. Ils ne sont pas encore transformés en exigences détaillées.
+
+1. **Hero et positionnement** : afficher « Qualité logicielle » avec le ton léger validé, sans contenu humoristique dans les informations critiques.
+- Niveau "titre", dans le header à droite du logo, je serais plus pour mettre une phrase amusante en titre, qui changerait à chaque chargement de la page.
+- Avant de mettre la feature en place, la phrase à mettre c'est "La Qualité logicielle est l'affaire de tou•te•s"
+2. **Panneaux graphiques** : reprendre les quatre panneaux de `assets/mockups/direction-labo-puzzle.svg` dans la composition validée `assets/mockups/accueil-puzzle-ateliers-themes.svg`.
+- Oui pour la reprise :
+3. **CTA et destinations** : utiliser `Découvrez l'univers du Testeur du Granier` et `Découvrez nos expérimentations`, puis confirmer les pages ou ancres cibles disponibles au premier incrément.
+- On enlève le découvrez pour un "L'univers du testeur du granier" et "Nos experimentations"
+4. **Header et navigation** : logo, bouton Contact, navigation rattachée au header à droite, menu responsive et pictogrammes avec libellés explicites.
+- OK
+5. **Thème clair/sombre** : contrôle accessible dans le header, préférence système initiale, choix utilisateur persistant, contrastes et états clavier ; confirmer si ce comportement appartient au premier incrément.
+- Yes, juste le logo sombre / clair sans le texte
+- A terme, je prévoir aussi de faire un module permettant de changer le thème complet du site pour permettre à chacun d'avoir le site de son choix (brandé avec les sponsors, outils ou autre) > Après MVP (mais à garder en tête)
+6. **Périmètre de livraison** : confirmer l'inclusion du footer dans le lot accueil/header ou son traitement séparé ; les pages secondaires, le formulaire et le contenu éditorial détaillé restent à découper.
+- Inclure le footer, avec toutes les informations classique comme les informations légales & RGPD
+
+**Stack validée pour le MVP :** Eleventy, HTML/CSS/JavaScript natif et Node.js 22 LTS. Cette décision permet de créer les exigences et tickets sur une base technique stabilisée.
+
+### 7.18 Décisions complémentaires pour le lot produit — 2026-09-21
+
+- Le texte initial du hero/header est : `La Qualité logicielle est l'affaire de tou•te•s`.
+- À terme, le titre du header pourra varier à chaque chargement ; cette variation n'est pas une exigence du premier incrément et devra préserver la lisibilité, la stabilité des tests et l'accessibilité.
+- Les CTA deviennent `L'univers du Testeur du Granier` et `Nos expérimentations`.
+- Le thème clair/sombre appartient au MVP. Le contrôle de thème affiche uniquement l'icône adaptée (soleil/lune), sans texte permanent ; son nom accessible et son état restent obligatoires pour les technologies d'assistance.
+- Le logo devra utiliser la variante adaptée au thème : logo clair sur fond sombre et logo sombre/couleur sur fond clair, sans afficher le mot-symbole textuel en complément dans le contrôle de thème.
+- La personnalisation ultérieure de thèmes complets, brandés par sponsors, outils ou partenaires, est une évolution post-MVP à conserver comme piste d'architecture.
+- Le footer est inclus dans le premier lot et doit contenir les informations légales, RGPD et les liens attendus ; son contenu précis sera contrôlé avec la politique de confidentialité et les mentions légales.
+
+### 7.19 Revues Mina et Mikaya des US — 2026-09-21
+
+Le découpage en `REQ-001` à `REQ-004` et `US-001` à `US-004` est adapté à un cycle court, mais les US restent `brouillon` / `a_revoir` et ne peuvent pas passer `pret` avant corrections documentaires.
+
+**Mina Cybersécurité :** avis global `À corriger avant développement`. Les réserves portent sur les destinations non définies des CTA et du header, le contrôle du stockage local du thème, la protection de la politique RGPD non relue et l'absence de contrôle explicite des scripts, requêtes et traceurs. Aucune vulnérabilité de code ni CVE n'est confirmée, car aucun code n'existe encore.
+
+**Mikaya test :** avis `À revoir` pour les quatre US. Les critères doivent préciser les routes, les quatre panneaux et leur ordre, les viewports `320x568`, `375x667`, `768x1024`, `1280x800`, le comportement du menu mobile (Échap, retour de focus, absence de piège clavier), les noms et états accessibles, ainsi que la clé et les valeurs autorisées du stockage local.
+
+**Réserves à trancher :**
+1. Routes exactes des deux CTA et des cinq rubriques du header.
+2. Choix de la clé et des valeurs `localStorage` du thème, avec repli sur la préférence système.
+3. Identité de la personne compétente qui relira juridiquement la politique et les mentions légales avant publication.
+4. Confirmation du niveau cible : principes WCAG 2.2 AA applicables ou objectif plus limité.
+5. Confirmation que le MVP ne charge aucun analytics, publicité, suivi ou script tiers non justifié.
+6. Harmonisation définitive des adresses : `contact@nocode-testing.com` pour le contact et `rgpd@nocode-testing.com` pour les droits RGPD.
+
+**Décision analytics clarifiée :** la case historique « Analytics respectueux de la vie privée » est remplacée par la décision ultérieure « aucun analytics ni traceur non essentiel au MVP ». Toute évolution analytics fera l'objet d'un lot et d'une validation séparés.
+
+### 7.20 Arbitrages du commanditaire sur les US — 2026-09-21
+
+- Les routes proposées sont validées : `/blog/`, `/labo-test-ia/`, `/ressources/`, `/a-propos/`, `/contact/`, `/mentions-legales/` et `/confidentialite/`.
+- Le thème utilise la clé `nct-theme`, avec les valeurs `light` et `dark`. Priorité : choix enregistré, puis préférence système, puis thème clair par défaut.
+- La personne qui réalisera la revue juridique finale sera désignée après le MVP ; le lot produit actuel peut continuer, mais aucune publication légale ne doit intervenir avant cette revue.
+- Les principes WCAG 2.2 AA applicables sont confirmés comme objectif du projet.
+- Le MVP ne charge aucun analytics, publicité, suivi ni script tiers non justifié.
+- Les adresses sont confirmées : `contact@nocode-testing.com` pour le formulaire et `rgpd@nocode-testing.com` pour les droits RGPD.
+- Pour le thème sombre, utiliser `assets/brand/Logo_NCT_vectoriel_blanc.png`. Le logo clair/couleur reste utilisé sur fond clair ; le contrôle de thème reste une icône seule visuellement.
+
+### 7.21 Avis de faisabilité avant développement — 2026-09-21
+
+- **Camity Front :** le lot est faisable avec Eleventy, HTML/CSS/JavaScript natif et Node.js 22. Le layout partagé fournira header, contenu et footer ; le menu mobile et le thème restent en JavaScript natif. Les tests responsive viseront `320x568`, `375x667`, `768x1024` et `1280x800`.
+- **Soso ArchiOps :** aucune base de données, fonction serveur, SMTP, Turnstile ou secret n'est nécessaire pour ce lot. Le formulaire et son infrastructure seront traités dans un incrément séparé. Le build Eleventy, le lockfile, la CI et les previews Vercel restent à initialiser dans le chantier technique.
+- **Rindel Dev :** aucun contrat API n'est nécessaire pour l'accueil, le header, le thème et le footer statiques. Le futur formulaire aura un contrat `POST` same-origin distinct, avec validation serveur, honeypot, limitation durable, Turnstile en production et SMTP OVH en recette.
+
+**Écart à corriger avant implémentation :** la planche `assets/mockups/accueil-puzzle-ateliers-themes.svg` conserve visuellement d'anciens libellés CTA (`Decouvrez...`), alors que les US validées imposent `L'univers du Testeur du Granier` et `Nos experimentations`. L'implémentation doit suivre les US ; la maquette doit être réalignée avant le handoff final.
+
+**Questions restantes :** URL LinkedIn définitive du footer ; confirmation que `/contact/` est une page statique informative dans ce lot, sans envoi, le formulaire fonctionnel étant reporté à un lot séparé.
+
+### 7.22 Extension validée du lot contact et du footer — 2026-09-21
+
+- Footer LinkedIn personnel : `https://www.linkedin.com/in/michael-granier/`.
+- Footer LinkedIn entreprise : `https://www.linkedin.com/company/nocode-testing`.
+- `/contact/` devient une page formulaire fonctionnelle du MVP, et n'est plus un simple placeholder.
+- Le développement local doit pouvoir envoyer ou simuler l'envoi sans dépendre immédiatement du SMTP OVH distant. Le mode local utilisera des variables d'environnement Windows, jamais commitées, pour sélectionner un transport de développement et ses paramètres.
+- Le mode local retenu est `CONTACT_TRANSPORT=fake` : aucun appel réseau, aucun secret SMTP et aucune écriture du payload personnel sur disque. Les variables Windows ne contiennent que la configuration de développement non sensible.
+- Le SMTP local est autorisé comme mode de test explicite avec `CONTACT_TRANSPORT=smtp`. Les variables SMTP sont fournies par le commanditaire dans la session Windows et ne sont jamais commitées ; `fake` reste le mode par défaut recommandé.
+- Le contrat fonctionnel du formulaire reste : `nom`, `e-mail`, `societe`, `sujet`, `message`, validation serveur, honeypot et limitation de débit. La cible réelle de production reste `contact@nocode-testing.com`.
+- Le SMTP OVH (`smtp.mail.ovh.net:587`, STARTTLS, authentification) sera branché et testé en recette après déploiement, avec les secrets saisis par le commanditaire dans Vercel. Le mode local ne doit jamais nécessiter ni stocker ces secrets.
+- Turnstile reste désactivé en local et en recette automatisée ; il sera activé et vérifié uniquement en production selon les décisions Mina déjà documentées.

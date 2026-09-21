@@ -2,12 +2,14 @@
 
 **Projet a afficher sur nocode-testing.com - ne pas publier sans revue juridique humaine competente.**
 
-Derniere mise a jour du projet : 20 septembre 2026.
+Derniere mise a jour du projet : 21 septembre 2026.
 
 ## Responsable du traitement
 
 Le responsable du traitement des donnees personnelles est :
 
+Michael Granier - Président
+`contact@nocode-testing.com`
 NOCODE TESTING, SAS  
 SIREN : 943 002 451  
 SIRET : 943 002 451 00012  
@@ -32,9 +34,9 @@ Le formulaire et ses journaux techniques sont concus pour limiter les donnees tr
 
 ## Base legale
 
-Le traitement de vos donnees de contact repose sur une base legale appropriee au contexte de votre demande, qui doit etre confirmee avant publication. Selon la nature de l'echange, il pourra s'agir de mesures precontractuelles prises a votre demande, de l'execution d'un contrat ou de l'interet legitime de NOCODE TESTING a repondre aux sollicitations professionnelles et a assurer le suivi de ses contacts.
+Le traitement de vos donnees de contact repose sur une base legale appropriee au contexte de votre demande. Selon la nature de l'echange, il pourra s'agir de mesures precontractuelles prises a votre demande, de l'execution d'un contrat ou de l'interet legitime de NOCODE TESTING a repondre aux sollicitations professionnelles et a assurer le suivi de ses contacts.
 
-Cette qualification ne vaut pas avis juridique et sera revue avant la mise en ligne de la presente politique.
+Cette presentation ne vaut pas avis juridique. La presente politique fera l'objet d'une revue juridique humaine avant sa mise en ligne.
 
 ## Destinataires et sous-traitants
 
@@ -42,23 +44,23 @@ Les donnees sont accessibles uniquement aux personnes habilitees de NOCODE TESTI
 
 Pour fournir le site et le formulaire, des prestataires techniques peuvent intervenir en qualite de sous-traitants, dans la limite de leurs roles respectifs :
 
-- hebergement et deploiement du site : Vercel, sous reserve de confirmation de la configuration effectivement retenue ;
-- protection contre les soumissions automatisees en production : Cloudflare Turnstile, uniquement si son activation est maintenue apres qualification ;
-- acheminement des e-mails du formulaire : OVH, uniquement si la solution SMTP est retenue et qualifiee en recette.
+- hebergement et deploiement du site : Vercel ;
+- protection contre les soumissions automatisees en production : Cloudflare Turnstile ;
+- acheminement des e-mails du formulaire : OVH, via le service SMTP retenu pour le formulaire.
 
-Ces prestataires ne doivent recevoir que les donnees necessaires a leur mission. Leurs conditions contractuelles, mesures de securite et roles doivent etre verifies avant publication et avant mise en service du formulaire.
+Ces prestataires ne recoivent que les donnees necessaires a leur mission. Leurs conditions contractuelles, mesures de securite et roles sont pris en compte dans la configuration du service.
 
 ## Transferts hors de l'Union europeenne
 
 L'hebergement, les services anti-abus et l'acheminement des e-mails peuvent impliquer des traitements ou des acces depuis des pays situes hors de l'Espace economique europeen. Les localisations et garanties applicables dependent des offres et configurations definitivement retenues.
 
-Avant toute mise en service, NOCODE TESTING verifiera pour chaque prestataire concerne l'existence d'un transfert, le pays concerne et la garantie appropriee, par exemple une decision d'adequation ou des clauses contractuelles types accompagnees, si necessaire, de mesures supplementaires. Les informations confirmees seront alors integrees a cette politique.
+Lorsque ces traitements ou acces existent, ils sont encadres par la garantie appropriee au regard de la reglementation applicable, par exemple une decision d'adequation ou des clauses contractuelles types accompagnees, si necessaire, de mesures supplementaires.
 
 ## Durees de conservation
 
 Les demandes de contact sont conservees au maximum trois ans apres le dernier contact actif avec la personne concernee. Elles sont supprimees plus tot lorsque la finalite de la demande est atteinte ou lorsque la personne exerce valablement son droit a l'effacement, sous reserve des obligations legales applicables.
 
-Le sponsor du projet realise les suppressions. Les durees de conservation des journaux techniques et des sauvegardes doivent etre definies, documentees et verifiees avant publication ; elles ne doivent pas exceder ce qui est necessaire a leurs finalites de securite et de fonctionnement.
+Le responsable du traitement realise les suppressions. Les journaux techniques et les sauvegardes sont conserves pendant la duree necessaire a leurs finalites de securite et de fonctionnement, selon les durees definies par le projet. Les e-mails lies au traitement d'une demande suivent la duree de conservation de cette demande et ne sont pas conserves au-dela de ce qui est necessaire.
 
 ## Vos droits
 
@@ -76,9 +78,9 @@ Malgre ces mesures, aucune transmission ou conservation de donnees sur internet 
 
 ## Cookies et mesure d'audience
 
-Aucun outil d'analytics ou de mesure d'audience n'est integre au MVP. Aucun traceur non essentiel ne doit etre depose ou lu sans votre consentement prealable.
+Aucun outil d'analytics ou de mesure d'audience n'est integre au site. Aucun traceur non essentiel ne doit etre depose ou lu sans votre consentement prealable.
 
-Le site peut utiliser des technologies strictement necessaires a son fonctionnement et a sa securite. En production uniquement, Cloudflare Turnstile pourra etre charge lors de l'utilisation du formulaire afin de proteger celui-ci contre les soumissions automatisees. Son usage, ses eventuels traceurs, ses transferts et son accessibilite doivent etre confirmes avant son activation. Turnstile n'est pas charge sur l'environnement de recette.
+Le site peut utiliser des technologies strictement necessaires a son fonctionnement et a sa securite. En production uniquement, Cloudflare Turnstile est charge lors de l'utilisation du formulaire afin de proteger celui-ci contre les soumissions automatisees. Turnstile n'est pas charge sur l'environnement de recette.
 
 Si des cookies ou traceurs non essentiels sont ajoutes ulterieurement, une information et, lorsque requis, un mecanisme de consentement seront mis en place avant leur activation.
 
@@ -86,18 +88,24 @@ Si des cookies ou traceurs non essentiels sont ajoutes ulterieurement, une infor
 
 Cette politique peut etre mise a jour pour tenir compte d'une evolution des traitements, des prestataires ou de la reglementation. La date de derniere mise a jour sera modifiee lors de toute evolution significative.
 
-## Validations obligatoires avant publication
+## Suivi de validation interne - ne pas publier
 
-Les points suivants doivent etre confirmes et integres a la version finale par une personne competente en droit de la protection des donnees :
+Les arbitrages du commanditaire sont les suivants :
 
-1. la qualite et les coordonnees completes du responsable du traitement, y compris les informations legales complementaires qui doivent figurer sur le site ;
-2. la ou les bases legales precises pour chaque finalite et la formulation adaptee au public vise ;
-3. l'existence, la liste et le role des sous-traitants effectivement utilises, notamment Vercel, Cloudflare et OVH ;
-4. les localisations de traitement, les transferts hors EEE eventuels et les garanties associees ;
-5. les durees precises de conservation des journaux techniques, sauvegardes et eventuels e-mails transmis ;
-6. la qualification en recette de SMTP OVH, ses conditions contractuelles et son parametage securise ;
-7. la decision d'activer ou non Cloudflare Turnstile en production, apres examen de son DPA, de son accessibilite, de ses traceurs et de ses transferts ;
-8. l'absence effective d'analytics au MVP et les modalites de consentement applicables avant toute evolution ;
-9. la coherence entre cette politique, les mentions legales, le formulaire, le registre des traitements et les procedures de gestion des demandes.
+1. le responsable du traitement et les coordonnees indiquees sont valides ;
+2. la base legale et sa formulation sont correctes ;
+3. Vercel, Cloudflare Turnstile et OVH sont les sous-traitants retenus dans le texte ;
+4. aucune information supplementaire n'est requise a ce stade sur les transferts ;
+5. les durees de conservation sont coherentes avec le projet ;
+6. Cloudflare Turnstile est valide pour la production ;
+7. aucun analytics n'est utilise a ce jour ;
+8. la coherence generale avec le formulaire et les procedures est validee.
 
-Cette revue juridique humaine est obligatoire avant toute publication. Le present document est un projet d'information et ne constitue pas une garantie de conformite RGPD.
+Avant activation, seuls les points techniques suivants restent a confirmer :
+
+- la configuration reelle des sous-traitants dans les environnements deployes ;
+> On mettra à jour après le MVP
+- le test SMTP OVH en recette avec `smtp.mail.ovh.net:587`, STARTTLS et authentification.
+> On testera après premier déploiement.
+
+La revue juridique humaine reste obligatoire avant toute publication. Le present document est un projet d'information et ne constitue pas une garantie de conformite RGPD.

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1940" viewBox="0 0 2400 1940" role="img" aria-labelledby="title desc">
+  <title id="title">Maquette du formulaire de contact Nocode Testing, themes clair et sombre, desktop et mobile</title>
+  <desc id="desc">Planche de handoff UI montrant le formulaire editorial de la route contact en quatre formats et les etats idle, validation, chargement, succes, erreur transport et limitation de debit.</desc>
+  <style>
+    .board{fill:#e8edf1}.paper{fill:#f8faf8;stroke:#25323d;stroke-width:2}.night{fill:#202b34;stroke:#ced7e2;stroke-width:2}.ink{fill:#25323d}.white{fill:#fff}.brand{fill:#5d648c}.mist{fill:#ced7e2}.sage{fill:#a8b8aa}.coral{fill:#df765d}.error{fill:#9b3d38}.darkpanel{fill:#10191f}.darkbrand{fill:#465071}.nightink{fill:#f5f7f3}.muted{fill:#62717b}.rule{stroke:#25323d;stroke-width:2}.nightrule{stroke:#ced7e2;stroke-width:2}.line{stroke:#8e9ba0;stroke-width:1.5}.focus{stroke:#ced7e2;stroke-width:3;fill:none}.micro{font:600 13px 'Space Grotesk',Arial,sans-serif;letter-spacing:1.5px}.label{font:600 14px 'IBM Plex Sans',Arial,sans-serif}.body{font:400 17px 'IBM Plex Sans',Arial,sans-serif}.small{font:400 13px 'IBM Plex Sans',Arial,sans-serif}.title{font:600 42px 'Space Grotesk',Arial,sans-serif}.mobiletitle{font:600 27px 'Space Grotesk',Arial,sans-serif}.state{font:600 12px 'Space Grotesk',Arial,sans-serif;letter-spacing:1px}.input{fill:#fff;stroke:#8e9ba0;stroke-width:1.5}.nightinput{fill:#2e3b45;stroke:#ced7e2;stroke-width:1.5}.statebox{fill:#f5f7f3;stroke:#25323d;stroke-width:1.5}.nightstate{fill:#293741;stroke:#ced7e2;stroke-width:1.5}.mobilebody{font:400 12px 'IBM Plex Sans',Arial,sans-serif}.mobilelabel{font:600 11px 'IBM Plex Sans',Arial,sans-serif}.mobilemicro{font:600 9px 'Space Grotesk',Arial,sans-serif;letter-spacing:1px}
+  </style>
+  <defs>
+    <g id="mail" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M2 5h20v15H2zM2 6l10 8 10-8"/></g>
+    <g id="moon" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 15.5A8.5 8.5 0 1 1 8.5 4 6.5 6.5 0 0 0 20 15.5z"/></g>
+    <g id="sun" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9L7 7M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></g>
+    <g id="check" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m3 12 6 6L21 4"/></g>
+    <g id="spinner" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 3a9 9 0 1 1-8.2 5.3"/></g>
+  </defs>
+  <rect width="2400" height="1940" class="board"/>
+  <text x="72" y="58" class="micro ink">NOCODE TESTING / CONTACT / LABO PUZZLE</text>
+  <text x="72" y="91" class="body brand">Planche de handoff — formulaire editorial, etats fonctionnels et responsive.</text>
+  <text x="72" y="119" class="small muted">Source visuelle : accueil-puzzle-ateliers-themes.svg · logo clair : Logo_NCT_vectoriel.svg · logo sombre : Logo_NCT_vectoriel_blanc.png</text>
+
+  <!-- DESKTOP LIGHT -->
+  <g transform="translate(72 170)">
+    <text x="0" y="-20" class="micro ink">DESKTOP 1280 / THEME CLAIR / IDLE + ETATS</text>
+    <rect width="1080" height="690" rx="8" class="paper"/>
+    <path d="M0 82h1080" class="rule"/>
+    <image href="../brand/Logo_NCT_vectoriel.svg" x="30" y="20" width="52" height="52" preserveAspectRatio="xMidYMid meet"/>
+    <text x="94" y="43" class="micro ink">NOCODE</text><text x="94" y="62" class="small brand">TESTING</text>
+    <text x="370" y="51" class="micro brand">QUALITE LOGICIELLE / CONTACT</text>
+    <rect x="830" y="20" width="208" height="44" class="mist"/><g transform="translate(843 31)" class="ink"><use href="#moon" width="22" height="22"/></g><text x="875" y="48" class="label ink">Passer au mode sombre</text>
+    <path d="M790 82v608" class="rule"/>
+    <rect x="30" y="114" width="720" height="530" class="darkpanel"/>
+    <text x="58" y="151" class="micro mist">01 / NOUS ECRIRE</text>
+    <text x="58" y="211" class="title white">Parlons du prochain</text><text x="58" y="258" class="title white">essai a mener.</text>
+    <text x="58" y="295" class="body mist">Une question sur le test, le no-code ou une mission ?</text><text x="58" y="318" class="body mist">Ecrivez-nous sans transmettre de donnees sensibles.</text>
+    <path d="M58 344h664" stroke="#70808a" stroke-width="1.5"/>
+    <!-- editorial form -->
+    <g transform="translate(58 372)">
+      <text y="0" class="label white">Nom <tspan class="coral">*</tspan></text><rect y="12" width="300" height="44" class="input"/><text x="14" y="40" class="small muted">Votre nom</text>
+      <text x="364" y="0" class="label white">E-mail <tspan class="coral">*</tspan></text><rect x="364" y="12" width="300" height="44" class="input"/><text x="378" y="40" class="small muted">vous@exemple.fr</text>
+      <text y="90" class="label white">Societe</text><rect y="102" width="300" height="44" class="input"/><text x="14" y="130" class="small muted">Votre organisation</text>
+      <text x="364" y="90" class="label white">Sujet <tspan class="coral">*</tspan></text><rect x="364" y="102" width="300" height="44" class="input"/><text x="378" y="130" class="small muted">Objet de votre message</text>
+      <text y="180" class="label white">Message <tspan class="coral">*</tspan></text><rect y="192" width="664" height="84" class="input"/><text x="14" y="220" class="small muted">Votre message</text>
+      <rect y="296" width="208" height="48" class="sage"/><g transform="translate(16 309)" class="ink"><use href="#mail" width="22" height="22"/></g><text x="52" y="327" class="label ink">Envoyer le message</text>
+      <text x="230" y="316" class="small mist">* Champ obligatoire</text>
+    </g>
+    <text x="58" y="618" class="small mist">Vos droits et la confidentialite : <tspan fill="#fff" text-decoration="underline">politique de confidentialite</tspan> · rgpd@nocode-testing.com</text>
+    <!-- right editorial rail -->
+    <rect x="820" y="114" width="230" height="530" class="brand"/>
+    <text x="844" y="151" class="micro white">02 / ETATS</text><path d="M844 165h182" stroke="#ced7e2" stroke-width="1.5"/>
+    <text x="844" y="199" class="small white">Idle</text><text x="844" y="221" class="small mist">Champs vides, bouton actif.</text>
+    <text x="844" y="265" class="small white">Validation</text><text x="844" y="287" class="small mist">Erreur pres du champ +</text><text x="844" y="305" class="small mist">focus sur le premier invalide.</text>
+    <text x="844" y="349" class="small white">Loading</text><text x="844" y="371" class="small mist">Bouton bloque, statut annonce.</text>
+    <text x="844" y="415" class="small white">Succes</text><text x="844" y="437" class="small mist">Confirmation generique,</text><text x="844" y="455" class="small mist">sans echo du message.</text>
+    <text x="844" y="499" class="small white">Transport / 429</text><text x="844" y="521" class="small mist">Retour neutre, valeurs</text><text x="844" y="539" class="small mist">conservees, nouvelle tentative.</text>
+    <rect x="844" y="565" width="170" height="50" fill="#25323d" stroke="#ced7e2" stroke-width="3"/><text x="856" y="586" class="mobilemicro white">FOCUS VISIBLE</text><text x="856" y="603" class="small mist">3 px / decalage 3 px</text>
+  </g>
+
+  <!-- DESKTOP DARK -->
+  <g transform="translate(1248 170)">
+    <text x="0" y="-20" class="micro ink">DESKTOP 1280 / THEME SOMBRE / ERREURS + SUCCES</text>
+    <rect width="1080" height="690" rx="8" class="night"/>
+    <path d="M0 82h1080" class="nightrule"/>
+    <image href="../brand/Logo_NCT_vectoriel_blanc.png" x="30" y="20" width="52" height="52" preserveAspectRatio="xMidYMid meet"/>
+    <text x="370" y="51" class="micro mist">QUALITE LOGICIELLE / CONTACT</text>
+    <rect x="830" y="20" width="208" height="44" class="mist"/><g transform="translate(843 31)" class="ink"><use href="#sun" width="22" height="22"/></g><text x="875" y="48" class="label ink">Passer au mode clair</text>
+    <path d="M0 660h1080" class="nightrule"/>
+    <rect x="30" y="114" width="690" height="500" class="darkbrand"/><text x="58" y="151" class="micro white">01 / REPONSE DU SERVICE</text>
+    <text x="58" y="205" class="title nightink">Votre demande est</text><text x="58" y="252" class="title nightink">bien prise en compte.</text>
+    <rect x="58" y="283" width="614" height="70" fill="#819584"/><g transform="translate(78 305)" class="ink"><use href="#check" width="28" height="28"/></g><text x="120" y="314" class="label ink">Votre message a bien ete envoye.</text><text x="120" y="337" class="small ink">Nous reviendrons vers vous si necessaire.</text>
+    <text x="58" y="397" class="body mist">Statut : transmission confirmee.</text><text x="58" y="427" class="small mist">La zone est announcee par role=status et reste visible.</text>
+    <rect x="58" y="468" width="238" height="48" class="mist"/><text x="78" y="498" class="label ink">Ecrire un nouveau message</text>
+    <rect x="742" y="114" width="308" height="500" class="darkpanel"/>
+    <text x="770" y="151" class="micro mist">03 / VALIDATION</text><rect x="770" y="180" width="252" height="44" class="nightinput"/><text x="784" y="208" class="small nightink">contact@</text><text x="770" y="245" class="small" fill="#ffb5a8">Adresse e-mail invalide.</text>
+    <text x="770" y="297" class="micro mist">04 / LOADING</text><rect x="770" y="326" width="252" height="48" class="sage"/><g transform="translate(786 339)" class="ink"><use href="#spinner" width="22" height="22"/></g><text x="824" y="357" class="label ink">Envoi en cours...</text>
+    <text x="770" y="427" class="micro mist">05 / TRANSPORT OU 429</text><rect x="770" y="455" width="252" height="92" fill="#5b3034"/><text x="786" y="482" class="label white">Envoi impossible pour le moment.</text><text x="786" y="506" class="small white">Conservez vos informations et</text><text x="786" y="524" class="small white">reessayez ulterieurement.</text><text x="770" y="580" class="small mist">role=alert · aucun detail technique</text>
+  </g>
+
+  <!-- MOBILE LIGHT -->
+  <g transform="translate(72 980)">
+    <text x="0" y="-20" class="micro ink">MOBILE 320 / 375 / THEME CLAIR</text>
+    <rect width="500" height="760" rx="24" class="darkpanel"/><rect x="10" y="10" width="480" height="740" rx="18" class="paper"/>
+    <path d="M10 82h480" class="rule"/><image href="../brand/Logo_NCT_vectoriel.svg" x="30" y="24" width="42" height="42"/><text x="84" y="47" class="mobilemicro ink">NOCODE TESTING</text><rect x="325" y="24" width="140" height="38" class="mist"/><g transform="translate(336 33)" class="ink"><use href="#moon" width="19" height="19"/></g><text x="363" y="48" class="mobilemicro ink">MODE SOMBRE</text>
+    <rect x="30" y="108" width="440" height="570" class="darkpanel"/><text x="54" y="138" class="mobilemicro mist">01 / NOUS ECRIRE</text><text x="54" y="180" class="mobiletitle white">Parlons du prochain</text><text x="54" y="211" class="mobiletitle white">essai a mener.</text><text x="54" y="238" class="mobilebody mist">Ecrivez-nous sans donnees sensibles.</text>
+    <g transform="translate(54 274)"><text y="0" class="mobilelabel white">Nom *</text><rect y="8" width="392" height="42" class="input"/><text x="12" y="35" class="mobilebody muted">Votre nom</text><text y="78" class="mobilelabel white">E-mail *</text><rect y="86" width="392" height="42" class="input"/><text x="12" y="113" class="mobilebody muted">vous@exemple.fr</text><text y="156" class="mobilelabel white">Societe</text><rect y="164" width="392" height="42" class="input"/><text x="12" y="191" class="mobilebody muted">Votre organisation</text><text y="234" class="mobilelabel white">Sujet *</text><rect y="242" width="392" height="42" class="input"/><text x="12" y="269" class="mobilebody muted">Objet du message</text><text y="312" class="mobilelabel white">Message *</text><rect y="320" width="392" height="62" class="input"/><text x="12" y="347" class="mobilebody muted">Votre message</text><rect y="402" width="214" height="44" class="sage"/><g transform="translate(14 413)" class="ink"><use href="#mail" width="19" height="19"/></g><text x="45" y="430" class="mobilelabel ink">Envoyer le message</text></g>
+    <text x="54" y="698" class="mobilebody mist">Politique de confidentialite · rgpd@nocode-testing.com</text>
+  </g>
+
+  <!-- MOBILE DARK -->
+  <g transform="translate(650 980)">
+    <text x="0" y="-20" class="micro ink">MOBILE 320 / 375 / THEME SOMBRE</text>
+    <rect width="500" height="760" rx="24" class="darkpanel"/><rect x="10" y="10" width="480" height="740" rx="18" class="night"/>
+    <path d="M10 82h480" class="nightrule"/><image href="../brand/Logo_NCT_vectoriel_blanc.png" x="30" y="24" width="42" height="42"/><text x="84" y="47" class="mobilemicro nightink">NOCODE TESTING</text><rect x="325" y="24" width="140" height="38" class="mist"/><g transform="translate(336 33)" class="ink"><use href="#sun" width="19" height="19"/></g><text x="363" y="48" class="mobilemicro ink">MODE CLAIR</text>
+    <rect x="30" y="108" width="440" height="230" class="darkbrand"/><text x="54" y="138" class="mobilemicro white">02 / ERREURS ASSOCIEES</text><text x="54" y="170" class="mobilelabel white">E-mail *</text><rect x="54" y="180" width="392" height="42" class="nightinput"/><text x="66" y="207" class="mobilebody nightink">contact@</text><text x="54" y="245" class="mobilebody" fill="#ffb5a8">Adresse e-mail invalide.</text><text x="54" y="278" class="mobilebody mist">Focus sur le premier champ invalide.</text><rect x="54" y="294" width="392" height="3" fill="#ced7e2"/>
+    <rect x="30" y="360" width="440" height="130" class="nightstate"/><text x="54" y="389" class="mobilemicro mist">03 / CHARGEMENT</text><rect x="54" y="407" width="210" height="44" class="sage"/><g transform="translate(67 419)" class="ink"><use href="#spinner" width="19" height="19"/></g><text x="98" y="435" class="mobilelabel ink">Envoi en cours...</text>
+    <rect x="30" y="512" width="440" height="166" fill="#5b3034"/><text x="54" y="541" class="mobilemicro white">04 / TRANSPORT OU 429</text><text x="54" y="570" class="mobilelabel white">Envoi impossible pour le moment.</text><text x="54" y="594" class="mobilebody white">Conservez vos informations et</text><text x="54" y="614" class="mobilebody white">reessayez ulterieurement.</text><text x="54" y="651" class="mobilebody white">role=alert · message neutre</text>
+  </g>
+
+  <!-- STATE STRIP -->
+  <g transform="translate(1190 980)">
+    <text x="0" y="-20" class="micro ink">ETATS DE REFERENCE / ANNOTATIONS FRONTEND</text>
+    <rect width="1138" height="760" rx="8" class="paper"/>
+    <text x="34" y="54" class="title ink">Un etat, un retour clair.</text><text x="34" y="84" class="body brand">Les couleurs accompagnent toujours un libelle et une position.</text>
+    <g transform="translate(34 120)"><rect width="326" height="116" class="statebox"/><text x="18" y="28" class="state brand">IDLE</text><text x="18" y="57" class="body ink">Bouton actif : Envoyer le message</text><text x="18" y="82" class="small muted">Aucune erreur de soumission affichee.</text></g>
+    <g transform="translate(376 120)"><rect width="326" height="116" class="statebox"/><text x="18" y="28" class="state error">VALIDATION / 400</text><text x="18" y="57" class="body ink">Adresse e-mail invalide.</text><text x="18" y="82" class="small muted">Erreur liee au champ + role=alert global.</text></g>
+    <g transform="translate(718 120)"><rect width="326" height="116" class="statebox"/><text x="18" y="28" class="state brand">LOADING</text><text x="18" y="57" class="body ink">Envoi en cours...</text><text x="18" y="82" class="small muted">Bouton desactive pendant la requete.</text></g>
+    <g transform="translate(34 264)"><rect width="326" height="116" fill="#dce9df" stroke="#25323d" stroke-width="1.5"/><text x="18" y="28" class="state" fill="#42634d">SUCCES / 200</text><text x="18" y="57" class="body ink">Votre message a bien ete envoye.</text><text x="18" y="82" class="small muted">role=status · message generique.</text></g>
+    <g transform="translate(376 264)"><rect width="326" height="116" fill="#f0dddd" stroke="#25323d" stroke-width="1.5"/><text x="18" y="28" class="state error">TRANSPORT / 500</text><text x="18" y="57" class="body ink">Envoi impossible pour le moment.</text><text x="18" y="82" class="small muted">Valeurs conservees · nouvelle tentative.</text></g>
+    <g transform="translate(718 264)"><rect width="326" height="116" fill="#f0dddd" stroke="#25323d" stroke-width="1.5"/><text x="18" y="28" class="state error">RATE-LIMIT / 429</text><text x="18" y="57" class="body ink">Envoi impossible pour le moment.</text><text x="18" y="82" class="small muted">Ne pas distinguer le mecanisme anti-abus.</text></g>
+    <path d="M34 425h1010" class="line"/><text x="34" y="461" class="micro brand">ANNOTATIONS DE HANDOFF</text><text x="34" y="494" class="body ink">Champs : nom, e-mail, societe, sujet, message · labels visibles · * obligatoire.</text><text x="34" y="523" class="body ink">Chaque erreur est associee par aria-describedby et aria-invalid, sans couleur seule.</text><text x="34" y="552" class="body ink">Zone globale presente avant mise a jour : role=status ou role=alert selon le retour.</text><text x="34" y="581" class="body ink">Cible interactive min. 44 px · focus continu 3 px #CED7E2, offset 3 px.</text><text x="34" y="610" class="body ink">Honeypot : champ non visible, non focalisable, annotation technique uniquement.</text><text x="34" y="639" class="small muted">Il ne constitue jamais une protection cote client ; validation et rate limit restent serveur.</text><text x="34" y="681" class="body ink">Turnstile : absent en local/recette ; emplacement reserve cote formulaire en production seulement.</text><text x="34" y="710" class="small muted">Aucun vrai nom, e-mail ou contenu personnel n'est utilise dans cette planche.</text>
+  </g>
+  <text x="72" y="1885" class="small ink">Tokens : fond #E8EDF1 · surface claire #F8FAF8 · surface sombre #202B34 · encre #25323D · ardoise #5D648C · bleu gris #CED7E2 · menthe #A8B8AA · erreur factuelle #9B3D38. Space Grotesk pour titres et reperes, IBM Plex Sans pour lecture et controles.</text>
+  <text x="72" y="1915" class="small brand">Responsive a verifier : 320x568 · 375x667 · 768x1024 · 1280x800. Aucun chevauchement ni troncature ; mobile en une colonne.</text>
+</svg>
